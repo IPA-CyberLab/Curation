@@ -55,4 +55,4 @@
 
 
 ## Archive
-[202504](https://github.com/IPA-CyberLab/Curation/blob/master/202504.json)
+[202504](https://github.com/IPA-CyberLab/Curation/tree/202504)
