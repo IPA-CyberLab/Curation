@@ -86,7 +86,7 @@
   * https://services.google.com/fh/files/misc/m-trends-2025-en.pdf
 
 * How China and North Korea Are Industrializing Zero-Days
-  * 中国と北朝鮮によるゼロデイ脆弱性の産業化について。RSAカンファレンスでのGoogle Cloud報告。北朝鮮による攻撃コード（エクスプロイト）の数が初めて中国に比肩。脆弱性を発見したい製品の一覧が提示され、ハッカー間で競争になっている。
+  * Google Cloud の脅威インテリジェンス チームによる新しいレポートでは、中国と北朝鮮の国家主体によるゼロデイ脆弱性の利用が急増していることが強調されており、北朝鮮のエクスプロイト量が中国に匹敵するのは初めてです。
   * 0day/ゼロデイ, 中国, 北朝鮮/DPRK
   * 2025年5月13日 23:10
   * https://www.bankinfosecurity.com/how-china-north-korea-are-industrializing-zero-days-a-28252
