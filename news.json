@@ -1,191 +1,172 @@
-[
-    {
-        "pagetitle":  "SideWinder APT attacks in H2 2024 | Securelist",
-        "summary":  "SideWinder が海運および物流業界に重点を置いたことは、同グループが通常の業界を超えて標的を拡大し、活動の地理的範囲を再び広げたことを示している。セキュリティ ベンダーは、SideWinder (別名 RattleSnake、T-APT-04) を、南アジアおよび東南アジアの組織に侵入した長い実績を持つ比較的活発な脅威グループと見なしている。同グループが最近海運および物流業界に進出する前は、パキスタン、ネパール、スリランカ、中国などインド近隣諸国の政府機関および軍事組織が主な標的だった。同脅威グループは、アフガニスタン、フランス、中国、モルディブ、トルコ、ブルガリアなどの国の大使館や領事館も標的にしている。SideWinder は、最近の海運会社や物流会社への攻撃でも、いつもの戦術を多く採用している。攻撃は、標的の受信者に関係がありそうな政府の決定や外交問題に関する内容と称する DOCX ファイルが添付されたスピア フィッシング メールから始まった。多くの攻撃で、この脅威グループはさまざまなテーマのフィッシングメールを使用して、悪意のある文書をクリックするようにターゲットを誘導してきた。この文書には、Microsoft Office のメモリ破損の脆弱性であるCVE-2017-11882のエクスプロイトが含まれており、SideWinder はこれを長年の攻撃で使用して、脆弱なシステムに StealerBot と呼ばれるエクスプロイト後のツールキットをドロップしてきた。",
-        "tags":  "APT: SideWinder、RattleSnake、T-APT-04 (https://www.notion.so/APT-SideWinder-RattleSnake-T-APT-04-1ca71d1c45a380bf937cda25addcabca?pvs=21), 政府 (https://www.notion.so/1ca71d1c45a38028bdf0d609eeb76907?pvs=21), 物流、海運 (https://www.notion.so/1ca71d1c45a380938ebfc364a69070db?pvs=21), ターゲットの拡大 (https://www.notion.so/1ca71d1c45a38004841ecec471d7218d?pvs=21)",
-        "archive_date":  "2025年4月4日 8:32",
-        "URL":  "https://securelist.com/sidewinder-apt-updates-its-toolset-and-targets-nuclear-sector/115847/"
-    },
-    {
-        "pagetitle":  "Steganography Explained: How XWorm Hides Inside Images",
-        "summary":  "この段階では、明らかなマルウェアはなく、一見無害なファイルを取得するスクリプトがあるだけである。しかし、本当の脅威は次のステップで、ステガノグラフィーを使用してペイロードを画像内に隠すというところに隠れている。VBS スクリプトは、実行可能ファイルをダウンロードする代わりに、イメージ ファイルを取得する。ただし、そのイメージ内には悪意のある DLL ペイロードが隠されている。",
-        "tags":  "ステガノグラフィ (https://www.notion.so/1ca71d1c45a3807586d5e3f60448e12e?pvs=21), マルウェア:Xworm (https://www.notion.so/Xworm-1b471d1c45a38010bd77fdb17dbf5023?pvs=21)",
-        "archive_date":  "2025年4月4日 8:44",
-        "URL":  "https://thehackernews.com/2025/03/steganography-explained-how-xworm-hides.html"
-    },
-    {
-        "pagetitle":  "2025 State of Secrets Sprawl Report | GitGuardian",
-        "summary":  "2024 年だけでも、2,370 万を超える新しいハードコードされたシークレットが GitHub のパブリック リポジトリに追加された。漏洩した秘密情報の 70% が 2 年間有効のままである。Commit Authorの15%は情報を漏洩してしまっている。パブリックリポジトリの4.6%は認証情報を含んでいる。",
-        "tags":  "情報漏洩 (https://www.notion.so/14571d1c45a380adbd21f4913c75b3c9?pvs=21), NHI, Non-Human Identities, 非人間アイデンティティ (https://www.notion.so/NHI-Non-Human-Identities-18771d1c45a380f49f4df50efaa820ba?pvs=21), Github (https://www.notion.so/Github-18c71d1c45a38025ad6ac3da6a539882?pvs=21), 統計 (https://www.notion.so/14571d1c45a380329c83ddcbec347413?pvs=21)",
-        "archive_date":  "2025年4月6日 9:13",
-        "URL":  "https://www.gitguardian.com/files/the-state-of-secrets-sprawl-report-2025?ref=blog.gitguardian.com"
-    },
-    {
-        "pagetitle":  "Cato CTRL: Ballista – New IoT Botnet Targeting Thousands of TP-Link Archer Routers | Cato Networks",
-        "summary":  "TP-Link Archerルーターを標的とした、報告されていない世界的なIoTボットネットキャンペーンが出現した。このボットネットは、TP-Link Archerルーターのリモートコード実行（RCE）の脆弱性（CVE-2023-1389）を悪用して、インターネット上で自動的に拡散する。具体的には、AX21モデル（別名AX1800モデル。ファームウェアアップデートはこちら）がインターネット上で自動的に拡散する。TP -Link製品は最近注目を集めており、ウォールストリートジャーナルは2024年12月に、米国政府機関が中国に関連するセキュリティ上の懸念からTP-Linkデバイスの禁止を検討していると報じた。初期ペイロードには、マルウェアをダウンロードするマルウェアドロッパー（具体的にはbashスクリプト）が含まれている。分析中に、ボットネットがTorドメインの利用に切り替えてステルス性を高めていることを確認した。マルウェアはポート82にTLS暗号化されたコマンド＆コントロール（C2）チャネルを設定し、侵害されたデバイスを完全に制御する。これにより、シェルコマンドを実行することで、さらなるRCE攻撃やサービス拒否（DoS）攻撃を実行できるようになる。さらに、マルウェアはローカルシステム上の機密ファイルの読み取りを試みる。Cato CTRLは、C2サーバーのIPアドレス（2.237.57[.]70）と、マルウェアバイナリ内に見つかったイタリア語の文字列に基づき、このキャンペーンがイタリアを拠点とする脅威アクターに関連していると中程度の確信を持って評価している。イタリアとの関連性と、標的となったTP-Link Archerルーターを考慮し、このボットネットを古代ローマの武器にちなんで「Ballista」と名付けた。Ballistaボットネットは、米国、オーストラリア、中国、メキシコの製造業、医療・ヘルスケア、サービス業、テクノロジー企業を標的としている。Censysによる検索により、本稿執筆時点でインターネットに接続された6,000台以上の脆弱なデバイスを特定した。このボットネットは依然として活動していると考えられる。以下の分析では、マルウェアの内部動作、C2プロトコル、検出手法、DoS攻撃能力について概説する。",
-        "tags":  "Botnet (https://www.notion.so/Botnet-16271d1c45a3800d9be3f83a211fd780?pvs=21), Ballista Btnet (https://www.notion.so/Ballista-Btnet-1d471d1c45a380b7bd01cf7cb6c35a48?pvs=21)",
-        "archive_date":  "2025年4月14日 6:26",
-        "URL":  "https://www.catonetworks.com/blog/cato-ctrl-ballista-new-iot-botnet-targeting-thousands-of-tp-link-archer-routers/"
-    },
-    {
-        "pagetitle":  "Open_Source_Software_Best_Practices_and_Supply_Chain_Risk_Management.pdf",
-        "summary":  "英国政府による OSS およびサプライ チェーンのリスク管理に関する現在のベスト プラクティスの分析では、現在の標準の弱点が見つかり、問題を改善するための 5 つの推奨事項が提示されている。レポートでは、分析結果に基づき、社内ベストプラクティスの構築方法に関する4つの推奨事項と、プロセスを実行可能にする方法に関する1つの推奨事項を提示している。これらの推奨事項は、社内OSSポリシーの策定、SBOMの開発、継続的な監視の実装、OSSコミュニティとの連携、そしてこれら全てを容易にするツールの活用である。",
-        "tags":  "OSS, オープンソース (https://www.notion.so/OSS-19771d1c45a380bd9348c5b9fcf66b31?pvs=21), 権威ドキュメント（政府組織、JASA、CISA、Gartner） (https://www.notion.so/JASA-CISA-Gartner-16071d1c45a38020a1e0d1866ac19b7e?pvs=21), SBOM (https://www.notion.so/SBOM-14571d1c45a380d59c04d8319ae1305e?pvs=21)",
-        "archive_date":  "2025年4月14日 6:33",
-        "URL":  "https://assets.publishing.service.gov.uk/media/661ff8b83771f5b3ee757fc5/Open_Source_Software_Best_Practices_and_Supply_Chain_Risk_Management.pdf"
-    },
-    {
-        "pagetitle":  "Office of Public Affairs | Justice Department Charges 12 Chinese Contract Hackers and Law Enforcement Officers in Global Computer Intrusion Campaigns | United States Department of Justice",
-        "summary":  "米司法省は水曜日、 10年以上にわたり世界中でハッカー侵入を行ったとして、12人の中国人を起訴したと発表した。起訴された人物には、請負業者のi-Soonのスタッフ8人、彼らと協力したとされる中国公安部の職員2人、そして、昨年末の米国財務省への侵入に関与したと検察が主張する中国ハッカー集団APT27（別名Silk Typhoon）（横メモ:アトリビューションミス？apt27とsilk typhoonは別組織とする節が強い）の一員とされるハッカー2人が含まれている。検察官によると、このグループ全体は、米国の州政府および連邦政府機関、アジア諸国の外務省、中国の反体制派、中国政府を批判する米国メディア、そして最近では昨年9月から12月にかけて侵入された米国財務省を標的としてきた。ブルームバーグ・ニュースが入手した財務省の内部報告書によると、ハッカーは同省の少なくとも400台のPCに侵入し、3,000件以上のファイルを盗んだという。起訴状は、ハッカーたちが場合によっては驚くほどの自律性を持って活動し、盗んだ情報を中国政府の顧客に売却する前に、自ら標的を選定していたことさえ明らかにしている。1月に財務省の情報漏洩事件への関与で財務省から制裁を受けた尹克成（Yin Kecheng）に対する起訴状は、同僚とのやり取りを引用しており、その中で彼は、アメリカの標的をハッキングすることへの個人的な好みや、「大きな標的への侵入」を模索していること、そしてそれによって車を購入できるほどの資金を稼げることを望んでいることを述べている。",
-        "tags":  "攻撃グループ: Silk Typhoon (https://www.notion.so/Silk-Typhoon-18171d1c45a38024818ef01d4182505b?pvs=21), APT: APT27, Linen Typhoon (https://www.notion.so/APT-APT27-Linen-Typhoon-1d471d1c45a380038699c1b3e9790ede?pvs=21)",
-        "archive_date":  "2025年4月14日 6:39",
-        "URL":  "https://www.justice.gov/opa/pr/justice-department-charges-12-chinese-contract-hackers-and-law-enforcement-officers-global"
-    },
-    {
-        "pagetitle":  "Squidoor: Suspected Chinese Threat Actor’s Backdoor Targets Global Organizations",
-        "summary":  "「Squidoor」と呼ばれる高度なバックドアマルウェアが、南米と東南アジアの組織に対して中国の脅威アクターらによって展開されている。このマルウェアは、優れたステルス性を実現するために設計されており、高度なセキュリティシステムによる検出を回避しながら、侵害を受けたネットワークへの継続的なアクセスを維持するための複数の方法を攻撃者に提供する。このマルウェアは Windows 版と Linux 版の両方に存在し、脅威の攻撃者がオペレーティング システムに関係なくさまざまな環境を侵害しようとしていることを示している。Squidoor の高度な技術は、特にその通信メカニズムに顕著に表れている。Windows バージョンはコマンド アンド コントロール (C2) 通信用の 10 種類のプロトコルをサポートしていますが、Linux バージョンは 9 種類をサポートしている。これらの方法には、HTTP ベースの通信、リバース TCP/UDP 接続、DNS トンネリング、さらには Microsoft Outlook メール API 通信などが含まれており、攻撃者はさまざまなネットワーク環境やセキュリティ制御に適応することができる。",
-        "tags":  "Defense Evasion, 防御無効化, Bypass (https://www.notion.so/Defense-Evasion-Bypass-1b271d1c45a380449e0be223f6944002?pvs=21), マルウェア: Squidoor (https://www.notion.so/Squidoor-1d571d1c45a380dab94fdc85f3e6d0e5?pvs=21), Windows (https://www.notion.so/Windows-1d571d1c45a380d08e81fa9421e5e52c?pvs=21), Linux (https://www.notion.so/Linux-14571d1c45a380c3a95fe1033fa48f35?pvs=21)",
-        "archive_date":  "2025年4月15日 5:57",
-        "URL":  "https://unit42.paloaltonetworks.com/advanced-backdoor-squidoor/"
-    },
-    {
-        "pagetitle":  "Anubis Backdoor | Prodaft",
-        "summary":  "新たに発見された Python ベースのバックドア「AnubisBackdoor」により、脅威の攻撃者は、ほとんどのウイルス対策ソリューションによる検出を完全に回避しながら、侵害されたシステム上でリモート コマンドを実行できるようになる。悪名高い脅威グループ Savage Ladybug (別名 FIN7) によって開発されたこのマルウェアは、軽度の難読化技術を通じてシンプルさと有効性を兼ね備えており、攻撃者はセキュリティ警告を出さずに感染したシステムへの永続的なアクセスを維持できる。悪意のあるソフトウェアにより、攻撃者はリモートでコマンドを実行し、機密データを盗み出し、組織のネットワーク インフラストラクチャ全体のシステムをさらに侵害することができる。主な感染ベクトルは、疑いを持たないユーザーが悪意のある添付ファイルやリンクを含む一見正当なメールを受信するマルスパム キャンペーンであると思われる。PRODAFT の研究者は、このマルウェアの有効性は、綿密に設計された難読化技術に由来しており、高度なセキュリティ ソリューションさえも回避することに驚くほど成功していることを突き止めた。このマルウェアは、ほとんどのセキュリティ ツールの検出しきい値を下回る動作をするため、今日の脅威の状況では特に危険である。",
-        "tags":  "マルウェア:AnubisBackdoor (https://www.notion.so/AnubisBackdoor-1d571d1c45a380c2a870e0bd18bbb5a1?pvs=21), マルウェア (https://www.notion.so/14571d1c45a380b48e1fe13d9b1b541d?pvs=21), Python (https://www.notion.so/Python-1d571d1c45a380b0a082e051ca836c97?pvs=21), APT: FIN7, Savage Ladybug (https://www.notion.so/APT-FIN7-Savage-Ladybug-1d571d1c45a38008a809c39a9389e711?pvs=21)",
-        "archive_date":  "2025年4月15日 6:18",
-        "URL":  "https://catalyst.prodaft.com/public/report/anubis-backdoor/overview"
-    },
-    {
-        "pagetitle":  "China's Volt Typhoon Hackers Dwelled in US Electric Grid for 300 Days - SecurityWeek",
-        "summary":  "標的となったのは、マサチューセッツ州リトルトンとボックスボロに電力を供給する小規模公営電力会社、リトルトン電灯水道局（LELWD）調査の結果、ハッカーらは2023年2月から300日以上にわたり同組織のネットワークに侵入していたことが判明した。 OT運用手順に関する特定のデータやエネルギーグリッド運用に関する空間レイアウトデータを盗み出すことも目的としていたこの情報は、敵対者が将来ステージ2の能力を利用すると決めた場合、いつ、どこを攻撃するかを正確に知る上で極めて重要になる可能性がある",
-        "tags":  "OT, ICS, 工場セキュリティ (https://www.notion.so/OT-ICS-15171d1c45a380bfa23df097eb6b1870?pvs=21), APT: VoltTyphoon (https://www.notion.so/APT-VoltTyphoon-1d571d1c45a380909329f01b9107d435?pvs=21)",
-        "archive_date":  "2025年4月15日 6:26",
-        "URL":  "https://www.securityweek.com/chinas-volt-typhoon-hackers-dwelled-in-us-electric-grid-for-300-days/"
-    },
-    {
-        "pagetitle":  "The 2025 Cloud-Native Security and Usage Report",
-        "summary":  "Sysdigレポートがサイバーセキュリティの課題の範囲を詳細に解説マシン・アイデンティティのリスクは人間のアイデンティティの7. 人間のアイデンティティの7.5倍リスクが高く、管理すべきその数は最大4万倍10分以内のリアルタイム検知と対応（ツールが数秒以内に警告を発する場合）が可能であり、企業は4分以内に対応措置を開始している使用中の脆弱性は6％未満に減少したが、イメージの肥大化は前年比で5倍に増加AI/MLパッケージを使用するワークロードは昨年1年間で500％増加し、一般公開は38％減少した、 セキュアなAIの実装が組織の明確な優先事項となっていることを示す60%のコンテナの稼働時間は1分以下あらゆるビジネスセクターの世界中の組織が、その規模に関係なく、Falcoのようなオープンソースソフトウェアを活用しているサイバーセキュリティ規制は不可欠であり、EUに拠点を置く組織は、グローバルな組織よりもコンプライアンスを優先することで主導権を握っている。",
-        "tags":  "ID (https://www.notion.so/ID-1d771d1c45a3806aacdec22d6b13f875?pvs=21), SOC/DFIR (https://www.notion.so/SOC-DFIR-18071d1c45a3807f8334cc25b934d9a9?pvs=21), AI (https://www.notion.so/AI-14571d1c45a380b4a8c4d9d306c8502c?pvs=21), コンテナ (https://www.notion.so/15f71d1c45a380c4ad41d89c0a2d81ed?pvs=21), 統計 (https://www.notion.so/14571d1c45a380329c83ddcbec347413?pvs=21)",
-        "archive_date":  "2025年4月16日 12:44",
-        "URL":  ""
-    },
-    {
-        "pagetitle":  "How cyberattackers exploit domain controllers using ransomware | Microsoft Security Blog",
-        "summary":  "Microsoft は最近、リモート デスクトップ プロトコル (RDP) を介してドメイン コントローラー (DC) を悪用するランサムウェア攻撃が急増していることを明らかにした。2024 年には、攻撃による組織への損害は平均で 936 万ドルに上る。",
-        "tags":  "RDP (https://www.notion.so/RDP-16271d1c45a380ac9d99c340ebbfbb56?pvs=21), ランサムウェア (https://www.notion.so/14571d1c45a380a2a129f3d12a94e338?pvs=21)",
-        "archive_date":  "2025年4月24日 0:17",
-        "URL":  "https://www.microsoft.com/en-us/security/blog/2025/04/09/how-cyberattackers-exploit-domain-controllers-using-ransomware/"
-    },
-    {
-        "pagetitle":  "Privacy Framework | NIST",
-        "summary":  "米国国立標準技術研究所（NIST）は、2024年に更新された人気のサイバーセキュリティフレームワーク（CSF）とより密接に相互接続するプライバシーフレームワーク（PFW）の更新草案を発表した。PFWは単独でも使用できるが、この更新バージョンではCSFと「シームレス」に使用できるため、組織は2つのフレームワークを活用して「プライバシーとサイバーセキュリティのリスク全体を管理」できるとNISTの応用サイバーセキュリティ部門ディレクターのジュリー・チュア氏は声明で述べた。",
-        "tags":  "プライバシー (https://www.notion.so/1de71d1c45a38001a5e4c7ae8dadba40?pvs=21), NIST (https://www.notion.so/NIST-16271d1c45a3809e901adf00312e97e1?pvs=21), 権威ドキュメント（政府組織、JASA、CISA、Gartner） (https://www.notion.so/JASA-CISA-Gartner-16071d1c45a38020a1e0d1866ac19b7e?pvs=21)",
-        "archive_date":  "2025年4月24日 0:25",
-        "URL":  "https://www.nist.gov/privacy-framework"
-    },
-    {
-        "pagetitle":  "UNC5174’s evolution in China’s ongoing cyber warfare: From SNOWLIGHT to VShell | Sysdig",
-        "summary":  "中国に関連するAPTとされるUNC5174 の戦術に変化が見られ、新たなオープンソースツールVShellとコマンドアンドコントロール (C2) インフラストラクチャを悪意のある活動に取り入れていることが観測された。同脅威アクターは東南アジアと北米の政府機関や重要インフラを標的にすることで知られている。",
-        "tags":  "APT: UNC5174 (https://www.notion.so/APT-UNC5174-1de71d1c45a380d59acad23220a1b257?pvs=21), マルウェア:SNOWLIGHT (https://www.notion.so/SNOWLIGHT-1de71d1c45a380e0bb92d0586d7c33b1?pvs=21), RAT(Remote Access Tool) (https://www.notion.so/RAT-Remote-Access-Tool-16271d1c45a380c1a4bff7a2a6e6fb83?pvs=21), RAT: VShell (https://www.notion.so/RAT-VShell-1de71d1c45a38010a489dd767edf7336?pvs=21)",
-        "archive_date":  "2025年4月24日 0:55",
-        "URL":  "https://sysdig.com/blog/unc5174-chinese-threat-actor-vshell/"
-    },
-    {
-        "pagetitle":  "Mustang Panda: ToneShell and StarProxy | ThreatLabz",
-        "summary":  "Zscaler ThreatLabzチームは、ミャンマーの標的組織の2台のマシンから発信されたMustang Pandaに関連する新たなアクティビティを発見した。この調査により、ToneShellの新たな亜種と、これまで記録されていなかった複数のツールが発見された。中国が支援するスパイグループであるMustang Pandaは、伝統的に主に東アジア諸国の政府関連組織、軍事組織、少数民族、非政府組織（NGO）を標的としていますが、ヨーロッパの組織も標的としていることが知られている。",
-        "tags":  "APT: Earth Preta, Mustang Panda (https://www.notion.so/APT-Earth-Preta-Mustang-Panda-1b371d1c45a38015ae59c4bc4395a261?pvs=21), DLL サイドローディング (https://www.notion.so/DLL-1de71d1c45a38036a2d1e7ad7c3b556a?pvs=21), バックドア:ToneShell (https://www.notion.so/ToneShell-1de71d1c45a380509b96ccfe22a66239?pvs=21), バックドア (https://www.notion.so/19171d1c45a380909ae1cb74a9be1eb2?pvs=21)",
-        "archive_date":  "2025年4月24日 6:14",
-        "URL":  "https://www.zscaler.com/blogs/security-research/latest-mustang-panda-arsenal-toneshell-and-starproxy-p1"
-    },
-    {
-        "pagetitle":  "Ransomware Groups Evolve Affiliate Models | Secureworks",
-        "summary":  "DragonForceは、2023年8月に従来型のRaaS（ランサムウェア・アズ・ア・サービス）スキームとして出現した。2024年2月に運営者がアンダーグラウンドフォーラムでこのサービスの宣伝を開始して以来、関連するリークサイトに投稿された被害者数は着実に増加し、2025年3月24日時点で136人に達した。2025年3月19日のアンダーグラウンドへの投稿で、DragonForceは自らを「カルテル」と名乗り、関連組織が独自の「ブランド」を作成できる分散型モデルへの移行を発表しまし",
-        "tags":  "Ransomware-as-a-Service (RaaS) (https://www.notion.so/Ransomware-as-a-Service-RaaS-1b371d1c45a38011b673c2765f5cdacc?pvs=21), ランサムウェア (https://www.notion.so/14571d1c45a380a2a129f3d12a94e338?pvs=21), ランサムウェア：DragonForce (https://www.notion.so/DragonForce-1b271d1c45a3804c93a4f7c204ff9d3b?pvs=21), ランサムウェア:ANUBIS (https://www.notion.so/ANUBIS-1a771d1c45a380c5a705fac643cf22c3?pvs=21)",
-        "archive_date":  "2025年4月24日 6:43",
-        "URL":  "https://www.secureworks.com/blog/ransomware-groups-evolve-affiliate-models"
-    },
-    {
-        "pagetitle":  "Obfuscation Overdrive: Next-Gen Cryptojacking with Layers",
-        "summary":  "このマルウェアキャンペーンは、Docker環境を標的とし、分散型インフラネットワークであるTeneoに接続された悪意のあるノードを展開する。Teneoでは、Facebook、X、Reddit、TikTokなどのソーシャルプラットフォームから公開データを収集するコミュニティノードを実行することで、ユーザーが報酬（Teneoポイント）を獲得できる。これらのポイントは$TENEOトークンに交換できる。このマルウェアは、このメカニズムを通じてソーシャルメディアの帯域幅を密かに収益化する。攻撃チェーンは、Docker Hub からコンテナ、具体的には kazutod/tene:ten イメージを起動する要求から始まる。 ",
-        "tags":  "暗号通貨/仮想通貨 (https://www.notion.so/15b71d1c45a38093b433cff881cc91b8?pvs=21)",
-        "archive_date":  "2025年4月24日 6:45",
-        "URL":  "https://www.darktrace.com/blog/obfuscation-overdrive-next-gen-cryptojacking-with-layers"
-    },
-    {
-        "pagetitle":  "m-trends-2025-en.pdf",
-        "summary":  "北朝鮮のハッカーが1日のフィッシング攻撃でTRONユーザーから1億3700万ドルを盗む",
-        "tags":  "フィッシング (https://www.notion.so/15f71d1c45a380c2bae3faa37edd561b?pvs=21), 北朝鮮/DPRK (https://www.notion.so/DPRK-18671d1c45a380d6bc32cc450ff7fa7d?pvs=21)",
-        "archive_date":  "2025年4月24日 6:47",
-        "URL":  "https://services.google.com/fh/files/misc/m-trends-2025-en.pdf"
-    },
-    {
-        "pagetitle":  "ATT&CK v17: New Platform (ESXi), Collection Optimization, & More Countermeasures | by Amy L. Robertson | MITRE ATT&CK® | Apr, 2025 | Medium",
-        "summary":  "MITRE ATT&CK v17.0、ESXi攻撃TTPを追加MITRE は ATT&CK フレームワークの最新バージョンをリリースした。このバージョンには、VMware ESXi ハイパーバイザーを標的とするために使用される戦術、手法、手順 (TTP) をカバーする新しいセクション (「マトリックス」) も含まれている。",
-        "tags":  "準権威ドキュメント（MITRE, CSA, OWASP, Google, フィッシング対策協議会, SANS, Linux Foundation, ISACA） (https://www.notion.so/MITRE-CSA-OWASP-Google-SANS-Linux-Foundation-ISACA-17e71d1c45a380438e06faa1573a433c?pvs=21)",
-        "archive_date":  "2025年4月24日 6:52",
-        "URL":  "https://medium.com/mitre-attack/attack-v17-dfb59eae2204"
-    },
-    {
-        "pagetitle":  "Resecurity | NFC Fraud Wave: Evolution of Ghost Tap on the Dark Web",
-        "summary":  "サイバー犯罪者は、ATM や POS 端末に対して NFC 詐欺を悪用し、消費者から大規模に金銭を窃取。",
-        "tags":  "NFC (https://www.notion.so/NFC-1de71d1c45a38027b295ef7bf9f1b9f1?pvs=21)",
-        "archive_date":  "2025年4月24日 6:56",
-        "URL":  "https://www.resecurity.com/blog/article/nfc-fraud-wave-evolution-of-ghost-tap-on-the-dark-web"
-    },
-    {
-        "pagetitle":  "2025 Data Breach Investigations Report | Verizon",
-        "summary":  "2025年版Verizonデータ漏洩・侵害調査報告書（DBIR）によると、脆弱性の悪用は侵害の20%に見られ、前年比34%の増加となった。この報告書を裏付けるため、Tenable Researchは最も悪用された脆弱性に関する詳細なデータを提供した。このブログでは、エッジに関連する17のCVEと、業界セクター全体にわたる修復の傾向を分析する。",
-        "tags":  "統計 (https://www.notion.so/14571d1c45a380329c83ddcbec347413?pvs=21)",
-        "archive_date":  "2025年4月24日 6:59",
-        "URL":  "https://www.verizon.com/business/resources/reports/dbir/"
-    },
-    {
-        "pagetitle":  "X-Force 2025 Threat Intelligence Index | IBM",
-        "summary":  "研究者らは、脅威の攻撃者がアイデンティティ攻撃を拡大するために大きく依存する手法であるインフォスティーラーを配信する電子メールが2024 年に前年比84% 増加したことを観察した。2024年の攻撃の70%は重要インフラに関連していた。このサブセットでは、有効なアカウントの利用が初期アクセス経路の31%を占め、次いでフィッシングと公開アプリケーションの悪用がそれぞれ26%だった。マルウェアは40%のケースで展開され、ランサムウェアが最も多く使用され、マルウェア展開の30%で発生した。",
-        "tags":  "統計 (https://www.notion.so/14571d1c45a380329c83ddcbec347413?pvs=21), ID (https://www.notion.so/ID-1d771d1c45a3806aacdec22d6b13f875?pvs=21), OT, ICS, 工場セキュリティ (https://www.notion.so/OT-ICS-15171d1c45a380bfa23df097eb6b1870?pvs=21)",
-        "archive_date":  "2025年4月24日 7:02",
-        "URL":  "https://www.ibm.com/reports/threat-intelligence"
-    },
-    {
-        "pagetitle":  "Inflection Point: Global Implications of Scam Centres, Underground Banking and Illicit Online Marketplaces in Southeast Asia",
-        "summary":  "巨大な犯罪組織は毎年、世界的なサイバー犯罪から莫大な利益を上げており、それを違法な銀行システムを通じて洗浄し、合法的な事業に見せかけた陰に隠蔽している。マルウェアを分析し、DNSインフラストラクチャをマッピングすることで，数千のアクティブなウェブサイトをホストする1,000以上のユニークなネームサーバーを特定することができた。これは、BG 1（Vault Viper）がオンライン詐欺やマネーロンダリング（資金洗浄）を含む東アジアおよび東南アジア全域の違法業者へのサービスを提供していることを繰り返し示唆してきた地域の法執行機関による事前の報告と一致している。",
-        "tags":  "ロンダリング (https://www.notion.so/1c671d1c45a380b9b43bd3f93feb0874?pvs=21)",
-        "archive_date":  "2025年4月27日 10:17",
-        "URL":  "https://www.unodc.org/roseap/uploads/documents/Publications/2025/Inflection_Point_2025.pdf"
-    },
-    {
-        "pagetitle":  "Annual Threat Report 2024 | Resources | Darktrace",
-        "summary":  "フィッシングは依然として頻繁な攻撃ベクトルである。2022年から2024年にかけて、攻撃の55%は電子メール経由で発生しており、フィッシング攻撃の5件に1件は特にVIPを標的としていた。この分野では脆弱性が頻繁に悪用されている。これには、共通脆弱性識別子 (CVE)、MFA のないデバイス、インターネットに公開されている IT および OT 資産が含まれる。地政学的緊張が攻撃を促進している: レポートには、EMEA のエネルギー インフラが、特に国家主体からの脅威活動の高まりに直面していることを示す新たな証拠とデータが含まれている。",
-        "tags":  "統計 (https://www.notion.so/14571d1c45a380329c83ddcbec347413?pvs=21), フィッシング (https://www.notion.so/15f71d1c45a380c2bae3faa37edd561b?pvs=21), OT, ICS, 工場セキュリティ (https://www.notion.so/OT-ICS-15171d1c45a380bfa23df097eb6b1870?pvs=21)",
-        "archive_date":  "2025年4月27日 10:36",
-        "URL":  "https://www.darktrace.com/resources/annual-threat-report-2024"
-    },
-    {
-        "pagetitle":  "Vulnerability Statistics Report in 2024 by Edgescan - Click to See vulnerability data and cyber security trends",
-        "summary":  "発見された脆弱性の33%以上が重大または高深刻度であった。SQLインジェクション（CWE-89）は、2022年以来の傾向として、最も一般的な重大なウェブアプリケーションの脆弱性であり続けている。重大なウェブアプリケーションの脆弱性を修復するための平均時間（MTTR）は35日である一方、インターネットに接続されたホスト/クラウドの脆弱性は平均61日かかる。2024年には、記録的な40,009件の共通脆弱性識別子（CVE）が公開された。CISAの既知の悪用された脆弱性（KEV）カタログには、2024年末までに1,238件の脆弱性が含まれており、その年中に185件が追加された。2024年に初めて悪用されたと公表された脆弱性は768件で、発見された脆弱性全体の2%を占め、2023年から20%増加した。",
-        "tags":  "統計 (https://www.notion.so/14571d1c45a380329c83ddcbec347413?pvs=21), 脆弱性 (https://www.notion.so/14571d1c45a380b688fdc996cec54ca9?pvs=21), SQLインジェクション (https://www.notion.so/SQL-1e271d1c45a38019bfdcf3db6a8f91cb?pvs=21)",
-        "archive_date":  "2025年4月27日 10:40",
-        "URL":  "https://www.edgescan.com/stats-report/"
-    },
-    {
-        "pagetitle":  "Lazarus APT updates its toolset in watering hole attacks | Securelist",
-        "summary":  "少なくとも 6 つの韓国の組織が、Lazarus グループによる脆弱性の悪用と組み合わせた水飲み場攻撃によって侵害を受けた。Innorix Agent のNday脆弱性も、横方向の移動に使用された。ThreatNeedle、Agamemnon ダウンローダー、wAgent、SIGNBT、COPPERHEDGE など、Lazarus の悪意のあるツールの亜種が新しい機能を備えて発見された。",
-        "tags":  "攻撃グループ:Lazarus (https://www.notion.so/Lazarus-18671d1c45a380f1973fdba86517c5b4?pvs=21)",
-        "archive_date":  "2025年4月27日 10:46",
-        "URL":  "https://securelist.com/operation-synchole-watering-hole-attacks-by-lazarus/116326/"
-    },
-    {
-        "pagetitle":  "Stego-Campaign delivers AsyncRAT. Steganography involves concealing… | by Andrew Petrus | Apr, 2025 | Medium",
-        "summary":  "被害者が侵害された画像を開くと、中に悪意のあるコードが隠されていることに気づかず、普通の写真しか見えない。　PowerShell スクリプトは、イメージのデータ内で特定の Base64 マーカー を見つけることによって、この隠されたコードを抽出する。",
-        "tags":  "ステガノグラフィ (https://www.notion.so/1ca71d1c45a3807586d5e3f60448e12e?pvs=21), マルウェア:AsyncRAT (https://www.notion.so/AsyncRAT-19271d1c45a38093b021dcf2157edf3f?pvs=21)",
-        "archive_date":  "2025年4月27日 10:48",
-        "URL":  "https://medium.com/@andrew.petrus/stego-campaign-delivers-asyncrat-446cba118c6b"
-    },
-    {
-        "pagetitle":  "Phishing in 2025: GenAI’s Role in Hyper-Personalized Attacks",
-        "summary":  "ヴィッシングが中心的役割を担う: 音声フィッシング (ヴィッシング) は、攻撃者が IT サポートを装って認証情報をリアルタイムで盗むという、目立った戦術になっている。フィッシング サイトの防御としての CAPTCHA : 攻撃者は、フィッシング ページを正当なものに見せかけ、セキュリティ ツールを回避するために CAPTCHA を使用している。暗号通貨詐欺の増加: 偽の暗号通貨取引所やウォレットは、説得力のあるおとりサイトを通じてユーザーを誘い込み、攻撃者が認証情報を盗み、被害者のデジタル資金にアクセスできるようにする。AI の誇大宣伝を狙ったフィッシング: 実際のプラットフォームを模倣した不正な「AI エージェント」ウェブサイトは、AI への信頼の高まりを悪用して、ユーザーの認証情報や支払いの詳細を盗んでいる。",
-        "tags":  "Vishing (Voice Phishing) (https://www.notion.so/Vishing-Voice-Phishing-15f71d1c45a380c7ae6dc0799d1229b3?pvs=21), CAPTCHA (https://www.notion.so/CAPTCHA-1e271d1c45a3802e958be6f91f238292?pvs=21), 暗号通貨/仮想通貨 (https://www.notion.so/15b71d1c45a38093b433cff881cc91b8?pvs=21), AI (https://www.notion.so/AI-14571d1c45a380b4a8c4d9d306c8502c?pvs=21)",
-        "archive_date":  "2025年4月27日 10:54",
-        "URL":  "https://www.zscaler.com/jp/campaign/threatlabz-phishing-report"
-    }
-]
+<?xml version="1.0" ?>
+<root>
+  <category name="AI">
+    <item>
+      <title>Phishing in 2025: GenAI’s Role in Hyper-Personalized Attacks</title>
+      <summary>ヴィッシングが中心的役割を担う: 音声フィッシング (ヴィッシング) は、攻撃者が IT サポートを装って認証情報をリアルタイムで盗むという、目立った戦術になっています。</summary>
+      <tags>Vishing (Voice Phishing), CAPTCHA, 暗号通貨/仮想通貨, AI</tags>
+      <archive_date>2025年4月27日 10:54</archive_date>
+      <source_url>https://www.zscaler.com/jp/campaign/threatlabz-phishing-report</source_url>
+    </item>
+    <item>
+      <title>Threat Analysis: New Noodlophile Stealer Distributes Via Fake AI Video Generation Platforms</title>
+      <summary>ブラウザの認証情報の窃取、ウォレットからの情報流出、そしてオプションのリモートアクセス展開といった機能を備えるマルウェア「Noodlophile Stealer」登場。AIをソーシャルエンジニアリングの餌として悪用し、新たな合法的なトレンドを感染経路へと転用している点です。</summary>
+      <tags>AI, フィッシング</tags>
+      <archive_date>2025年5月12日 5:33</archive_date>
+      <source_url>https://www.morphisec.com/blog/new-noodlophile-stealer-fake-ai-video-generation-platforms/</source_url>
+    </item>
+    <item>
+      <title>Inside RSAC 2025: The Five Emerging Attack Techniques That Demand Your Attention | SANS Institute</title>
+      <summary>SANS Institute の基調講演///1. 認可の乱立（組織がユーザーに重複した権限や過剰な権限を付与する）///2. ICSランサムウェア///3. 破壊的なICS攻撃///4. デジタルフォレンジックの新たな課題（現代の脅威アクターがフォレンジックアーティファクトの消去または作成防止の技術をいかに洗練させているかを強調）///5. AI規制の脅威（攻撃者がAIを武器として利用するケースが増えているにもかかわらず、防御側がシステムを効果的に監視する能力を制限する可能性がある。）</summary>
+      <tags>GroupB（MITRE, CSA, OWASP, Google, フィッシング対策協議会, SANS, Linux Foundation, ISACA）, OT, ICS, 工場セキュリティ, AI</tags>
+      <archive_date>2025年5月13日 21:52</archive_date>
+      <source_url>https://www.sans.org/blog/inside-rsac-2025-the-five-emerging-attack-techniques-that-demand-your-attention/</source_url>
+    </item>
+    <item>
+      <title>AI Agents Fail in Novel Ways, Put Businesses at Risk</title>
+      <summary>マイクロソフトの AI レッド チームは 4 月 24 日に公開した論文の中で、人工知能 (AI) を搭載し企業が導入するエージェントには、少なくとも 10 種類の新しい広範な障害のクラスが存在すると述べています。これらの障害は、AI アプリケーションまたは環境の安全性やセキュリティを危険にさらす可能性があります。大規模言語モデル (LLM) の障害によって機密情報や危険な情報、不適切な言葉が漏れる可能性がある一方で、マイクロソフトが特定した障害モードでは、エージェントが攻撃者に代わって行動したり、誤った判断を下したり、ユーザーに危害を加えたりする可能性があります。</summary>
+      <tags>AI</tags>
+      <archive_date>2025年5月13日 22:30</archive_date>
+      <source_url>https://www.microsoft.com/en-us/security/blog/2025/04/24/new-whitepaper-outlines-the-taxonomy-of-failure-modes-in-ai-agents/</source_url>
+    </item>
+    <item>
+      <title>Real AI Agents with Fake Memories: Fatal Context ManipulationAttacks on Web3 Agents</title>
+      <summary>プリンストン大学とセンティエント社の研究者による新たな研究によると、AIエージェントが意思決定を行う際に頼りにするデータに偽の「記憶」を埋め込むことで、AIエージェントに悪意のある行動を誘発させることが可能とのこと。</summary>
+      <tags>AI</tags>
+      <archive_date>2025年5月15日 9:12</archive_date>
+      <source_url>https://arxiv.org/pdf/2503.16248</source_url>
+    </item>
+    <item>
+      <title>Cofense_The-Rise-of-AI_2025.pdf</title>
+      <summary>脅威アクターは現在、AIを活用して、経営幹部を装った説得力のあるメールを作成しています。多くの場合、実際の転送スレッドを模倣し、支払い承認に関する言及をしています。これらのメッセージは「@consultant.com」などの類似ドメインから送信され、AIによって作成されるため、通常であれば疑わしい誤字、一貫性のないフォーマット、言い回しが少なくなっています。//////悪意のあるメールの報告数が最も増加した業界://////教育：341%///建設：1,282%///税金関連キャンペーン：340%///正規のファイルを利用したキャンペーン：575%</summary>
+      <tags>AI, Polymorphic, フィッシング, 統計</tags>
+      <archive_date>2025年5月17日 5:15</archive_date>
+      <source_url>https://cofense.com/getmedia/46bf7141-4bca-4ab7-8ca8-c6cb8ae5140c/Cofense_The-Rise-of-AI_2025.pdf</source_url>
+    </item>
+    <item>
+      <title>AI-powered Threats Case Study #02: Vulnerabilities</title>
+      <summary>サイバー犯罪者は、ChatGPT、Claude、DeepSeek などの生成 AI や大規模言語モデル (LLM) を武器として利用し、エクスプロイトの開発を自動化し、セキュリティ保護を回避し、マルウェア キャンペーンを改良するケースが増えています。//////ダーク ウェブ フォーラムでは 2025 年初頭から AI を活用した攻撃ツールに関する議論が急増している。//////注目すべき例の 1 つは、重大なリモート コード実行の脆弱性である CVE-2024-10914 の悪用で、AI 生成のスキャナーとペイロードが Cracked や BreachForums などのプラットフォームで公開されました。//////2025年1月に「KuroCracks」というユーザーがCVE-2024-10914用のMasscanベースのスキャナーを配布し、ChatGPTを使用して最適化されていると主張した事例を特定したとされる。</summary>
+      <tags>AI</tags>
+      <archive_date>2025年5月18日 19:28</archive_date>
+      <source_url>https://s2w.inc/en/resource/detail/825?utm_source=twitter&amp;utm_medium=social-posts&amp;utm_campaign=ti-reports&amp;utm_term=vulnerability&amp;utm_content=ai-llm-02</source_url>
+    </item>
+    <item>
+      <title>Xanthorox – New BlackHat AI Tool Used to Launch Phishing &amp; Malware Attacks</title>
+      <summary>フィッシングやマルウェア攻撃の実行に使用される新しいAIツール, Xanthoroxが登場。///攻撃的なサイバー作戦の特定の側面に合わせて設計された 5 つの特殊な AI モデルを備えたモジュール式のマルチモデル アーキテクチャとなっている。</summary>
+      <tags>AI, Xanthorox</tags>
+      <archive_date>2025年5月18日 19:35</archive_date>
+      <source_url>https://cybersecuritynews.com/xanthorox-ai-blackhat-tool/</source_url>
+    </item>
+  </category>
+  <category name="DPRK">
+    <item>
+      <title>m-trends-2025-en.pdf</title>
+      <summary>北朝鮮のハッカーが1日のフィッシング攻撃でTRONユーザーから1億3700万ドルを盗むことに成功した模様。Google報告。</summary>
+      <tags>フィッシング, 北朝鮮/DPRK</tags>
+      <archive_date>2025年4月24日 6:47</archive_date>
+      <source_url>https://services.google.com/fh/files/misc/m-trends-2025-en.pdf</source_url>
+    </item>
+    <item>
+      <title>How China and North Korea Are Industrializing Zero-Days</title>
+      <summary>中国と北朝鮮によるゼロデイ脆弱性の産業化について。RSAカンファレンスでのGoogle Cloud報告。北朝鮮による攻撃コード（エクスプロイト）の数が初めて中国に比肩。脆弱性を発見したい製品の一覧が提示され、ハッカー間で競争になっている。</summary>
+      <tags>0day/ゼロデイ, 中国, 北朝鮮/DPRK</tags>
+      <archive_date>2025年5月13日 23:10</archive_date>
+      <source_url>https://www.bankinfosecurity.com/how-china-north-korea-are-industrializing-zero-days-a-28252</source_url>
+    </item>
+    <item>
+      <title>APT GROUP123 - CYFIRMA</title>
+      <summary>北朝鮮の国家支援を受ける脅威アクターAPTグループ123は、サイバースパイ活動を強化しており、特に世界中の複数の分野のWindowsシステムを標的としている。//////このグループは少なくとも2012年から活動しており、APT37、Reaper、ScarCruftなどの別名でも追跡されており、歴史的には韓国を標的としていたが、近年は日本、ベトナム、中東、その他の地域にも活動を拡大している。///Cyfirma の研究者は、これらの攻撃の影響は情報窃盗だけにとどまらず、同グループが現在、スパイ活動と並行して金銭目的のランサムウェア攻撃を行っていることを確認したとしている。</summary>
+      <tags>北朝鮮/DPRK, APT, APT:APT123, 航空・宇宙業界</tags>
+      <archive_date>2025年5月18日 19:23</archive_date>
+      <source_url>https://www.cyfirma.com/research/apt-group123/</source_url>
+    </item>
+    <item>
+      <title>北朝鮮背景のサイバー犯罪を支えるロシアのネットワークインフラ | トレンドマイクロ | トレンドマイクロ (JP)</title>
+      <summary>///トレンドマイクロの評価によれば、北朝鮮に関係するアクターはロシアのIPアドレスレンジを利用して、数十台のVPSサーバへRDP接続し、求人サイトでのやり取りや暗号資産関連サービスへのアクセスなどのタスクを行っているとのこと。暗号資産ウォレットのパスワードを総当たり攻撃で解析しようとする活動に使われているサーバの一部も、これらのロシアのIPレンジに含まれている模様。///さらに、Void Dokkaebiが使用するBeavertailマルウェアのコマンド＆コントロールサーバの構築方法や、暗号資産ウォレットのパスワードを解析する方法を解説した動画も確認したとされる。</summary>
+      <tags>北朝鮮/DPRK, ロシア</tags>
+      <archive_date>2025年5月18日 20:23</archive_date>
+      <source_url>https://www.trendmicro.com/ja_jp/research/25/e/russian-infrastructure-north-korean-cybercrime.html</source_url>
+    </item>
+    <item>
+      <title>Analysis of APT37 Attack Case Disguised as a Think Tank for National Security Strategy in South Korea (Operation. ToyBox Story)</title>
+      <summary>2025年3月、北朝鮮の国家支援を受けたハッカー集団APT37によるものとされる高度なスピアフィッシング攻撃が、北朝鮮情勢に関心を持つ活動家を標的にしていた。///注目を集めるために、韓国の国家安全保障シンクタンクからの学術フォーラムへの招待を装うなどしていた模様。///APT37は、以前にpCloudとYandexを使用した後、DropboxをC2サーバーとして使用していた。</summary>
+      <tags>APT: APT37, ScarCruft, Reaper, Red Eye, 北朝鮮/DPRK</tags>
+      <archive_date>2025年5月18日 20:38</archive_date>
+      <source_url>https://www.genians.co.kr/en/blog/threat_intelligence/toybox-story</source_url>
+    </item>
+  </category>
+  <category name="ランサムウェア">
+    <item>
+      <title>暴露型ランサムウェア攻撃グループ「HellCat」のリークサイトが閉鎖。</title>
+      <summary>2024年に出現を確認した暴露型ランサムウェア攻撃グループである「HellCat」のリークサイトの内容が閉鎖を示唆する記載に変化したことを確認。//////実質的な同ブランド名での活動停止およびリブランドへの移行の可能性がある。//////メンバーとして知られる一人は「HellCatプロジェクトは終了し別の団体へ移管された」と一部でコメントしている。</summary>
+      <tags>ランサムウェア:Hellcat, ランサムウェア</tags>
+      <archive_date>2025年5月13日 22:12</archive_date>
+      <source_url>https://x.com/MalwareBibleJP/status/1921750247702970693?t=BYeEhq7X2zqPS86auaXAAA&amp;s=09</source_url>
+    </item>
+    <item>
+      <title>Lockbit Ransomware Hacked - Leaked Database Exposes Internal Chats</title>
+      <summary>Lockbitランサムウェア集団が使用していたリークサイトがハッキングされ、改ざんされたという。//////リークサイトは、「犯罪はやめましょう。犯罪は悪いことです。プラハより xoxo」という短いテキストメモに置き換えられました</summary>
+      <tags>Hackback, ランサムウェア</tags>
+      <archive_date>2025年5月13日 22:36</archive_date>
+      <source_url>https://cybersecuritynews.com/lockbit-ransomware-hacked/</source_url>
+    </item>
+    <item>
+      <title>Someone hacked ransomware gang Everest’s leak site | TechCrunch</title>
+      <summary>Everest ランサムウェア集団が使用していたリークサイトが今週末ハッキングされ、改ざんされたという。//////リークサイトは、「犯罪はやめましょう。犯罪は悪いことです。プラハより xoxo」という短いテキストメモに置き換えられました</summary>
+      <tags>Hackback, ランサムウェア</tags>
+      <archive_date>2025年5月13日 22:39</archive_date>
+      <source_url>https://techcrunch.com/2025/04/07/someone-hacked-everest-ransomware-gang-dark-web-leak-site/</source_url>
+    </item>
+    <item>
+      <title>Why Ransomware Isn’t Just a Technology Problem (It’s Worse) - Security Boulevard</title>
+      <summary>なぜランサムウェアは単なる技術的問題ではないのか。各関係者毎に支払うべきかに異なるインセンティブがあり、ゴールは競合している。結果として市場の失敗が発生。組織内で方針を明確にするとで混乱は軽減可能。</summary>
+      <tags>ランサムウェア</tags>
+      <archive_date>2025年5月13日 23:07</archive_date>
+      <source_url>https://securityboulevard.com/2025/05/why-ransomware-isnt-just-a-technology-problem-its-worse/</source_url>
+    </item>
+    <item>
+      <title>Emulating the Terrorizing VanHelsing Ransomware - AttackIQ</title>
+      <summary>AttackIQ はVanHelsing ランサムウェアの動作をエミュレートする新しい攻撃グラフを公開しました。VanHelsing ランサムウェアは，2025 年 3 月に登場し、急速に成長している新しいランサムウェア・アズ・ア・サービス (RaaS) アフィリエイト プログラムであり，イングレス ツール転送，仮想化/サンドボックス回避，システム回復の禁止などの機能を持つ。</summary>
+      <tags>ランサムウェア, Ransomware-as-a-Service (RaaS), ランサムウェア:VanHelsing</tags>
+      <archive_date>2025年5月16日 9:15</archive_date>
+      <source_url>https://www.attackiq.com/2025/05/15/emulating-vanhelsing-ransomware/</source_url>
+    </item>
+  </category>
+  <category name="Authoritative">
+    <item>
+      <title>Inside RSAC 2025: The Five Emerging Attack Techniques That Demand Your Attention | SANS Institute</title>
+      <summary>SANS Institute の基調講演///1. 認可の乱立（組織がユーザーに重複した権限や過剰な権限を付与する）///2. ICSランサムウェア///3. 破壊的なICS攻撃///4. デジタルフォレンジックの新たな課題（現代の脅威アクターがフォレンジックアーティファクトの消去または作成防止の技術をいかに洗練させているかを強調）///5. AI規制の脅威（攻撃者がAIを武器として利用するケースが増えているにもかかわらず、防御側がシステムを効果的に監視する能力を制限する可能性がある。）</summary>
+      <tags>OT, ICS, 工場セキュリティ, AI</tags>
+      <archive_date>2025年5月13日 21:52</archive_date>
+      <source_url>https://www.sans.org/blog/inside-rsac-2025-the-five-emerging-attack-techniques-that-demand-your-attention/</source_url>
+    </item>
+    <item>
+      <title>Building a Better OT Ransomware Response Plan: A Simple Framework for ICS Environments | SANS Institute</title>
+      <summary>OTにおいて、良いランサムウェア対策計画を立てる方法・・・環境を知る///IT/OTの（コミュニケーションの）断絶を是正する///プレイブック自体は、SANS PICERLライフサイクル（準備、特定、封じ込め、根絶、復旧、そして教訓の活用）に合わせ，何を含めるかを考える。</summary>
+      <tags>OT, ICS, 工場セキュリティ</tags>
+      <archive_date>2025年5月13日 22:09</archive_date>
+      <source_url>https://www.sans.org/blog/building-a-better-ot-ransomware-response-plan-a-simple-framework-for-ics-environments/</source_url>
+    </item>
+    <item>
+      <title>悪用された脆弱性の傾向分析 | PwC Japanグループ</title>
+      <summary>ソフトウェア種別の傾向、CVSS基本評価基準の傾向、脆弱性の攻撃手法の傾向などで分析。///脆弱性が悪用されやすいソフトウェアの種別が存在する///悪用された脆弱性のCVSSは比較的高い傾向にある///悪用される脆弱性の多くは端末への侵入（Initial Access）・実行（Execution）、特権の奪取（Privilege Escaration）など、攻撃の最初のステップとして利用されている</summary>
+      <tags>統計</tags>
+      <archive_date>2025年5月13日 22:32</archive_date>
+      <source_url>https://www.pwc.com/jp/ja/knowledge/column/awareness-cyber-security/vulnerabilities-exploited.html</source_url>
+    </item>
+    <item>
+      <title>Cybersecurity Skills Framework</title>
+      <summary>Linux Foundationは本日、サイバーセキュリティ スキル フレームワークの立ち上げを発表しました。これは、サイバーセキュリティ専門家にとどまらず、幅広いIT職種において重要なサイバーセキュリティ能力を特定し、対処するためのグローバル リファレンス ガイドです。///このフレームワークは、基礎、中級、上級の熟練度レベルにおける実践的なサイバーセキュリティの期待値を定義し、それらのスキルをDoD 8140、CISA NICEフレームワーク、ICT e-CFなどの認定標準にマッピングします。広く採用されている標準に準拠し、カスタマイズも可能なため、このフレームワークは業界、地域、組織規模を問わず容易に導入できます。このフレームワークは、無料で使いやすいウェブインターフェースで提供されており、ユーザーは関連する職種を選択したり、スキルをカテゴリ間で移動したり、該当しないスキルを削除したり、必要なカスタム項目を追加したりできます。</summary>
+      <tags>教育、社内教育、訓練</tags>
+      <archive_date>2025年5月17日 3:42</archive_date>
+      <source_url>https://cybersecurityframework.io/</source_url>
+    </item>
+    <item>
+      <title>Primary Mitigations to Reduce Cyber Threats to</title>
+      <summary>Cybersecurity and Infrastructure Security Agency（CISA）、Federal Bureau of Investigation（FBI）、Environmental Protection Agency（EPA）、Department of Energy（DOE）は、米国の重要インフラ事業体の運用技術（OT）および産業制御システム（ICS）に影響を及ぼすサイバーインシデントを認識していると公表。重要インフラ事業体に対し、インターネットに接続された OT および ICS を特に意図的に標的とするサイバー脅威活動に対するサイバーセキュリティ態勢を改善するために、今すぐ検討し、行動するよう要請した。///1. 公衆インターネットへのOT接続を削除する。///2. デフォルトのパスワードを直ちに変更し、強力でユニークなパスワードを使用する。///3. OTネットワークへのリモートアクセスを保護する。///4. IT ネットワークと OT ネットワークをセグメント化する。///5. OT システムを手動で操作する能力を練習し、維持する。</summary>
+      <tags>OT, ICS, 工場セキュリティ</tags>
+      <archive_date>2025年5月17日 7:52</archive_date>
+      <source_url>https://www.ic3.gov/CSA/2025/250506.pdf</source_url>
+    </item>
+  </category>
+</root>
