@@ -2,60 +2,130 @@
 <root>
   <category name="Daily">
     <item>
-      <title>Newly identified wiper malware “PathWiper” targets critical infrastructure in Ukraine</title>
-      <summary>ウクライナ国内の重要インフラに対し、これまで知られていないワイパー「PathWiper」を使用した破壊的な攻撃が観測された。この攻撃とそれに関連するワイパーを、ロシアと関係のある高度で持続的な脅威（APT）の攻撃者によるものと推定しているとのこと。Cisco Talos報告。</summary>
-      <tags>重要インフラ, ワイパー, マルウェア, ロシア, OT, ICS, 工場セキュリティ</tags>
-      <archive_date>2025年6月6日 12:53</archive_date>
-      <source_url>https://blog.talosintelligence.com/pathwiper-targets-ukraine/</source_url>
+      <title>Decoding ‘ClickFix’: Lessons from the Latest Browser-Based Phish</title>
+      <summary>CloudflareのTurnstileインターフェースを模倣するClickFix手法が発見された。SlashNext報告。「人間であることを確認してください」というボックスにチェックを入れると、コマンドプロンプトを立ち上げて、Powershellスクリプトのコピーペーストを実行するようにユーザーを誘導する。</summary>
+      <tags>攻撃手法:ClickFix, フィッシング</tags>
+      <archive_date>2025年6月7日 7:40</archive_date>
+      <source_url>https://slashnext.com/blog/decoding-clickfix-lessons-from-the-latest-browser-based-phish/</source_url>
     </item>
     <item>
-      <title>From open-source to open threat: Tracking Chaos RAT’s evolution</title>
-      <summary>最近の実際の Linux および Windows 攻撃で、既知のマルウェア ファミリである Chaos RAT の新しい亜種が発見された。Acronis TRU報告。Chaos RAT は、 2022 年に初めて確認されたオープンソースのリモート管理ツール (RAT) です。2024 年に進化し、2025 年に TRU によって新しいサンプルが発見されている。</summary>
-      <tags>RAT(Remote Access Tool), RAT: Chaos RAT, OSS, オープンソース</tags>
-      <archive_date>2025年6月6日 13:07</archive_date>
-      <source_url>https://www.acronis.com/en-us/cyber-protection-center/posts/from-open-source-to-open-threat-tracking-chaos-rats-evolution/</source_url>
+      <title>DragonForce: The Ransomware Cartel Guarding Its Burrow</title>
+      <summary>DragonForceは過去1年間で120以上の被害者を出した。Bitdefender報告。このグループは、米国、イタリア、オーストラリアなどの国に拠点を置く組織を攻撃してきた。DragonForceは、 Schtasks.exeやTaskkill.exeといった正規の実行ファイルを用いて常駐化を図るというLiving Off the Landなどの手法を用いるとされている。DragonForceは、製造業、建設業、テクノロジー、ヘルスケア、小売業などの業界が標的。</summary>
+      <tags>ランサムウェア：DragonForce, ランサムウェア, 統計</tags>
+      <archive_date>2025年6月7日 7:50</archive_date>
+      <source_url>https://www.bitdefender.com/en-us/blog/businessinsights/dragonforce-ransomware-cartel</source_url>
     </item>
     <item>
-      <title>Turning Off the (Information) Flow: Working With the EPA to Secure Hundreds of Exposed Water HMIs</title>
-      <summary>米国の水道施設向けのWebベースのHMI約400件がオンラインで公開されていることを発見された。Censys報告。すべてのシステムは 同じブラウザベースの HMI/SCADA ソフトウェアを使用していた。</summary>
-      <tags>OT, ICS, 工場セキュリティ, ASM</tags>
-      <archive_date>2025年6月6日 13:10</archive_date>
-      <source_url>https://censys.com/blog/turning-off-the-information-flow-working-with-the-epa-to-secure-hundreds-of-exposed-water-hmis</source_url>
+      <title>Ponemon Institute Survey – Digital Executive Protection Research Report 2025 - BlackCloak | Protect Your Digital Life™</title>
+      <summary>経営幹部を狙ったサイバー攻撃が増加。2023年比。BlackCloakがスポンサーとなったポネモン研究所の最新調査。過去2年間に経営幹部の51%がサイバー攻撃の標的となり、2023年の43%から増加。幹部がDeepFakeを用いたなりすましの標的になったという報告は2025年は41%に増加。2023年では34%だった。</summary>
+      <tags>なりすまし, DeepFake, 統計</tags>
+      <archive_date>2025年6月7日 8:00</archive_date>
+      <source_url>https://blackcloak.io/white-papers-reports/ponemon-digital-executive-protection-report-2025/</source_url>
     </item>
     <item>
-      <title>The State of DDoS Attacks in APAC in Q1 2025</title>
-      <summary>2025年第1四半期のアジア太平洋地域におけるDDoS攻撃の状況、StormWall報告。2024年第4四半期から2025年第1四半期で、日本に対する攻撃数は、7％→9％に変化。業種別では、通信業（31%）、エンターテインメント（18%）、政府機関（１12%）が上位。</summary>
-      <tags>DDoS, 統計</tags>
-      <archive_date>2025年6月6日 13:15</archive_date>
-      <source_url>https://stormwall.network/resources/blog/ddos-report-apac-q1-2025?rs=linkedin_q1apac2025_0406_ln_post</source_url>
+      <title>Cybercriminals camouflaging threats as AI tool installers</title>
+      <summary>AIソリューションのインストーラーやツールを装った様々なマルウェアを拡散することで、AIの普及を悪用している。 Cisco Talos 報告。正規の AI ツールのインストーラーを装い、ランサムウェア CyberLock、Lucky_Gh0$t、そして新たに発見された「Numero」と呼ばれるマルウェアなどがインストールされる。</summary>
+      <tags>ランサムウェア, Polymorphic, ポリモーフィック</tags>
+      <archive_date>2025年6月7日 8:13</archive_date>
+      <source_url>https://blog.talosintelligence.com/fake-ai-tool-installers/</source_url>
     </item>
     <item>
-      <title>Lumma Infostealer – Down but Not Out? - Check Point Blog</title>
-      <summary>Lumma の開発者は、活動を再開し、通常通りの業務を遂行するために取り組みをしている。Check Point報告。2025年5月21日、ユーロポール、FBI、マイクロソフトは、他の官民パートナーと協力し、Lummaインフォスティーラーの活動を撲滅するための作戦を発表していた。</summary>
-      <tags>Infostealer/インフォスティーラー, Lumma</tags>
-      <archive_date>2025年6月6日 13:29</archive_date>
-      <source_url>https://blog.checkpoint.com/security/lumma-infostealer-down-but-not-out/</source_url>
+      <title>Disrupting malicious uses of AI: June 2025 | OpenAI</title>
+      <summary>OpenAIが、「 AIの悪意ある使用の阻止」と題するケーススタディを完備した包括的な声明を発表。プロパガンダやインプレッション操作、児童搾取、詐欺（偽のIT労働者、リクルーティング）、スパム、AI]を利用したペネトレーションテストなど、人類の最善の利益に反する活動を実行するために独自のAIツールがますます利用されていることに対抗するための取り組みを詳述。</summary>
+      <tags>AI, AI for Attacker (Pentester)</tags>
+      <archive_date>2025年6月7日 8:18</archive_date>
+      <source_url>https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025/</source_url>
     </item>
     <item>
-      <title>The State of Cloud Runtime Security 2025 - ARMO</title>
-      <summary>クラウドランタイムのセキュリティについてARMO報告。月平均4,080件のアラートのうち、実際のインシデントは年間7件。89％のチームがアクティブな脅威の検出に失敗していると回答。63%が5つ以上のクラウド・ランタイム・セキュリティ・ツールを使用している。しかし、これらのツール間でアラートを関連付けることができるのは13%としている。</summary>
-      <tags>クラウドランタイム (Cloud Runtime), クラウド, 統計</tags>
-      <archive_date>2025年6月6日 13:34</archive_date>
-      <source_url>https://www.armosec.io/cloud-runtime-security-survey-2025/</source_url>
+      <title>Kali GPT- AI Assistant That Transforms Penetration Testing on Kali Linux</title>
+      <summary>Kali Linuxユーザーのために微調整されたGPT-4上に構築されたAIモデル、Kali GPTが登場。ペンテスターがエクスプロイトの提案を受けたり、初心者のメンターとしての役割が想定される模様。</summary>
+      <tags>AI, AI for Security, AI for Attacker (Pentester)</tags>
+      <archive_date>2025年6月8日 22:23</archive_date>
+      <source_url>https://cybersecuritynews.com/kali-gpt/</source_url>
     </item>
     <item>
-      <title>#StopRansomware: Play Ransomware | CISA</title>
-      <summary>2025 年 5 月時点で、FBI はランサムウェア攻撃者によって悪用されたとされる約 900 の影響を受けたことを把握していました。連邦捜査局（FBI）報告。連邦捜査局（FBI）、サイバーセキュリティ・インフラストラクチャセキュリティ庁（CISA）、およびオーストラリア通信信号局のオーストラリアサイバーセキュリティセンター（ASDのACSC）は、2025年1月までのFBIの捜査を通じて特定されたPlayランサムウェアグループのIOCとTTPを広めるために、発表した共同勧告を更新。</summary>
-      <tags>ランサムウェア:Play, GroupA（政府組織、JASA、CISA、Gartner）</tags>
-      <archive_date>2025年6月6日 13:45</archive_date>
-      <source_url>https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a</source_url>
+      <title>Demystifying Myth Stealer: A Rust Based InfoStealer</title>
+      <summary>Myth Stealerの亜種が観測された。Trellix報告。Rustで記述されており、Gecko ベースのブラウザと Chromium ベースのブラウザの両方を標的とし、パスワード、クッキー、オートフィル情報などの機密データを抽出する。詐欺的ゲームウェブサイトを通じて配布されている。</summary>
+      <tags>Infostealer/インフォスティーラー, ブラウザ</tags>
+      <archive_date>2025年6月8日 22:30</archive_date>
+      <source_url>https://www.trellix.com/blogs/research/demystifying-myth-stealer-a-rust-based-infostealer/</source_url>
     </item>
     <item>
-      <title>Phishing e-mail that hides malicious link from Outlook users - SANS Internet Storm Center</title>
-      <summary>Outlookユーザを回避するフィッシングテクニックが発見された。SANS報告。「ブラウザ」に応じて表示コンテンツを変更する手法（HTML条件文&lt;!--[if mso]&gt;と&lt;!--[if !mso]&gt;）を利用し、 Outlook で表示/指定されているリンクを無害なものに変更し、他の電子メール クライアント/ブラウザーでは、おそらく資格情報を盗む Web サイトを指すようにしていた。</summary>
-      <tags>GroupB（MITRE, CSA, OWASP, Google, フィッシング対策協議会, SANS, Linux Foundation, ISACA）, Defense Evasion, 防御無効化, Bypass</tags>
-      <archive_date>2025年6月6日 13:49</archive_date>
-      <source_url>https://isc.sans.edu/diary/32010</source_url>
+      <title>Unpacking ClickFix: Darktrace’s detection of a prolific social engineering tactic</title>
+      <summary>欧州、中東、アフリカ（EMEA）および米国の顧客環境において、複数のClickFix攻撃が確認された。Darktrace報告。フィッシング メールや偽の CAPTCHA プロンプトから始まり、ユーザーに悪意のある PowerShell コマンドを実行させる侵害が発生、C2通信に至った。</summary>
+      <tags>攻撃手法:ClickFix</tags>
+      <archive_date>2025年6月8日 22:35</archive_date>
+      <source_url>https://www.darktrace.com/blog/unpacking-clickfix-darktraces-detection-of-a-prolific-social-engineering-tactic</source_url>
+    </item>
+    <item>
+      <title>The strange tale of ischhfd83: When cybercriminals eat their own – Sophos News</title>
+      <summary>GitHub でホストされているオープンソースのマルウェアプロジェクト「Sakura RAT」についてのレポート。Sphos報告。ゲームチーターや経験の浅い脅威アクターを標的としていた。特定のメールアドレスにリンクされた形で141 のリポジトリを発見。内133 には 4 つの異なる感染方法を利用するバックドアが含まれていた。その大部分はゲームチートを提供すると主張しており (58%)、その他のリポジトリはマルウェア プロジェクト、エクスプロイト、または攻撃ツールであると主張していた(24%)。</summary>
+      <tags>ハッキングバック, Hacking back, Github</tags>
+      <archive_date>2025年6月8日 22:39</archive_date>
+      <source_url>https://news.sophos.com/en-us/2025/06/04/the-strange-tale-of-ischhfd83-when-cybercriminals-eat-their-own/</source_url>
+    </item>
+    <item>
+      <title>Central Bureau of Investigation (India) on X: &quot;Operation Chakra V – CBI Conducts Searches at 19 Locations; Busts Transnational Cybercrime Syndicate Targeting Japanese Citizens; 6 Operatives Arrested https://t.co/yl1HrQyR0k&quot; / X</title>
+      <summary>インド中央捜査局（CBI）は、日本人を狙った高度な国際技術サポート詐欺に関与していたとして6人を逮捕し、違法コールセンター2か所を解体したことを明らかにした。当局は、日本の警察庁およびマイクロソフトと協力し、この計画の実行犯とその運営体制を追跡したと発表した。</summary>
+      <tags>警察</tags>
+      <archive_date>2025年6月8日 23:05</archive_date>
+      <source_url>https://x.com/CBIHeadquarters/status/1927971239257108729</source_url>
+    </item>
+    <item>
+      <title>2025 Honeywell Cyber Threat Report</title>
+      <summary>産業システムに対するサイバー攻撃として、USBデバイスを介して拡散するランサムウェア、トロイの木馬、マルウェアが増大。Honeywellが”2025 Honeywell Cyber Threat Report”で報告。産業用制御システム向けに特別に設計された新しいランサムウェアの亜種が存在しないにもかかわらず、既存の敵対者は、重要なセクター全体で業務を妨害し続けた。USBは引き続き様々な種類のワームファミリーを持ち、新しいものも確認されている模様。</summary>
+      <tags>OT, ICS, 工場セキュリティ, 統計, ランサムウェア, ランサムウェア:CLOP, CL0P, USB</tags>
+      <archive_date>2025年6月9日 6:33</archive_date>
+      <source_url>https://www.honeywell.com/us/en/reports/2025/honeywell-cyber-threat-report</source_url>
+    </item>
+    <item>
+      <title>Replay Attacks: The Blind Spot in Audio Deepfake Detection | Resemble AI</title>
+      <summary>音声ディープフェイク検出を回避する手法について。Resemble AIのチームと、Fraunhofer AISEC、ヴロツワフ工科大学、クルージュ＝ナポカ工科大学、Neodyme AG、ミュンヘン工科大学の研究者が共同発表。生成AI音声をスピーカーで再生し、再録音するだけでディープフェイク検出を回避することが可能になる。</summary>
+      <tags>DeepFake, Vishing (Voice Phishing), Defense Evasion, 防御無効化, Bypass</tags>
+      <archive_date>2025年6月9日 6:56</archive_date>
+      <source_url>https://www.resemble.ai/replay-attacks-the-blind-spot-in-audio-deepfake-detection/?trail=Blog%2520Case%2520Studies%2520and%2520Development%2520Thoughts%2520from%2520our%2520team.</source_url>
+    </item>
+    <item>
+      <title>Blitz Malware: A Tale of Game Cheats and Code Repositories</title>
+      <summary>Blitzマルウェアをバックドアを仕込んだゲームチートを介して拡散する活動を観測。Palo Alto Networks UNIT42報告。Blitzマルウェアは、ダウンローダーとボットペイロードの2段階で構成。Blitzの開発者は、人工知能（AI）コードリポジトリ「Hugging Face Spaces」を悪用し、C2インフラのファイルやコンポーネントをホストしていた。後続のマルウェアには、仮想通貨Moneroをマイニングするマルウェアも。</summary>
+      <tags>マルウェア：Blitz, ゲームチート</tags>
+      <archive_date>2025年6月10日 6:11</archive_date>
+      <source_url>https://unit42.paloaltonetworks.com/blitz-malware-2025/</source_url>
+    </item>
+    <item>
+      <title>DuplexSpy RAT: Stealthy Windows Malware Enabling Full Remote Control and Surveillance - CYFIRMA</title>
+      <summary>新規のRATである，DuplexSpy RATがGitHub上で公開された。CYFIRMA報告。DuplexSpy RATは、スタートアップフォルダーの複製とWindowsレジストリの変更によって永続化を確立するとともに、ファイルレス実行と権限昇格の手法を用いてステルス性を高める。主な機能には、キーロギング、スクリーンキャプチャ、Webカメラ/音声の盗聴、リモートシェル、解析回避機能など。</summary>
+      <tags>RAT(Remote Access Tool), RAT: DuplexSpy RAT</tags>
+      <archive_date>2025年6月10日 6:25</archive_date>
+      <source_url>https://www.cyfirma.com/research/duplexspy-rat-stealthy-windows-malware-enabling-full-remote-control-and-surveillance/</source_url>
+    </item>
+    <item>
+      <title>Follow the Smoke | China-nexus Threat Actors Hammer At the Doors of Top Tier Targets | SentinelOne</title>
+      <summary>SentinelOneを標的とした偵察作戦と関連する活動クラスターPurpleHazeとShadowPadについて。SentinelOne報告。活動クラスターは、2024年7月から2025年3月の間に発生した、異なるターゲットへの複数の部分的に関連した侵入にまたがります。被害者には、日本を含む南アジアの政府機関、欧州の報道機関、および幅広い分野の70以上の組織が含まれる。PurpleHazeの侵入の一部が、APT15およびUNC5174として公に報告されている中国のサイバースパイ集団の容疑者と重なる行為者と緩やかに関連していると考えている。</summary>
+      <tags>中国, ターゲット：セキュリティベンダー</tags>
+      <archive_date>2025年6月10日 6:29</archive_date>
+      <source_url>https://www.sentinelone.com/labs/follow-the-smoke-china-nexus-threat-actors-hammer-at-the-doors-of-top-tier-targets/</source_url>
+    </item>
+    <item>
+      <title>Analysis of the Triple Combo Threat of the Kimsuky Group</title>
+      <summary>Kimsukyが、2025年3月から4月にかけて実施した攻撃について。Facebook、メール、Telegramのプラットフォームのユーザーをターゲットにした高度なマルチプラットフォームキャンペーン。北朝鮮脱北者のボランティア活動に関する信憑性のあるコンテンツでターゲットを誘い込んでいた。</summary>
+      <tags>北朝鮮/DPRK</tags>
+      <archive_date>2025年6月10日 6:50</archive_date>
+      <source_url>https://www.genians.co.kr/en/blog/threat_intelligence/triple-combo?hs_amp=true</source_url>
+    </item>
+    <item>
+      <title>Forensic Analysis in Cybersecurity - Tools and Techniques for Incident Response</title>
+      <summary>サイバーセキュリティにおけるフォレンジック分析 - インシデント対応のためのツールとテクニック。Volatility、Wireshark、Plaso</summary>
+      <tags>まとめ記事/メタアナリシス</tags>
+      <archive_date>2025年6月10日 6:59</archive_date>
+      <source_url>https://cybersecuritynews.com/forensic-analysis-in-cybersecurity/</source_url>
+    </item>
+    <item>
+      <title>Internet Crime Complaint Center (IC3) | Home Internet Connected Devices Facilitate Criminal Activity</title>
+      <summary>連邦捜査局 ( FBI ) が、サイバー犯罪者が家庭内ネットワークに接続されたモノのインターネット ( IoT ) 1デバイスを悪用し、BADBOX 2.0 を使用して犯罪行為を行っていることについて警告。サイバー犯罪者は、TV ストリーミング デバイス、デジタル プロジェクター、アフターマーケットの車載インフォテインメント システム、デジタル フォト フレームなどの IoT デバイスを侵害して、家庭内ネットワークに不正アクセスする。感染したデバイスのほとんどは中国で製造されていたとのこと。</summary>
+      <tags>FBI, GroupA（政府組織、JASA、CISA、Gartner）, Botnet, BADBOX2.0, IoT</tags>
+      <archive_date>2025年6月10日 7:02</archive_date>
+      <source_url>https://www.ic3.gov/PSA/2025/PSA250605#fn2</source_url>
     </item>
   </category>
 </root>
