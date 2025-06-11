@@ -96,4 +96,5 @@
 [202504](https://github.com/IPA-CyberLab/Curation/blob/202504/news.json)  
 [202505](https://github.com/IPA-CyberLab/Curation/blob/202505/news.json)  
 [20250606](https://github.com/IPA-CyberLab/Curation/blob/20250606/news.json)  
-[20250608](https://github.com/IPA-CyberLab/Curation/blob/20250608/news.json)
+[20250608](https://github.com/IPA-CyberLab/Curation/blob/20250608/news.json)  
+[20250610](https://github.com/IPA-CyberLab/Curation/blob/20250610/news.json)  
