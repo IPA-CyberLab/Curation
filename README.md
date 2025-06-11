@@ -28,36 +28,6 @@
 本リポジトリに掲載した内容は予告なく変更することがあります。
 
 ## ニュース更新
-* Blitz Malware: A Tale of Game Cheats and Code Repositories
-  * Blitzマルウェアをバックドアを仕込んだゲームチートを介して拡散する活動を観測。Palo Alto Networks UNIT42報告。Blitzマルウェアは、ダウンローダーとボットペイロードの2段階で構成。Blitzの開発者は、人工知能（AI）コードリポジトリ「Hugging Face Spaces」を悪用し、C2インフラのファイルやコンポーネントをホストしていた。後続のマルウェアには、仮想通貨Moneroをマイニングするマルウェアも。
-  * マルウェア：Blitz, ゲームチート
-  * 2025年6月10日 6:11
-  * https://unit42.paloaltonetworks.com/blitz-malware-2025/
-
-* DuplexSpy RAT: Stealthy Windows Malware Enabling Full Remote Control and Surveillance - CYFIRMA
-  * 新規のRATである，DuplexSpy RATがGitHub上で公開された。CYFIRMA報告。DuplexSpy RATは、スタートアップフォルダーの複製とWindowsレジストリの変更によって永続化を確立するとともに、ファイルレス実行と権限昇格の手法を用いてステルス性を高める。主な機能には、キーロギング、スクリーンキャプチャ、Webカメラ/音声の盗聴、リモートシェル、解析回避機能など。
-  * RAT(Remote Access Tool), RAT: DuplexSpy RAT
-  * 2025年6月10日 6:25
-  * https://www.cyfirma.com/research/duplexspy-rat-stealthy-windows-malware-enabling-full-remote-control-and-surveillance/
-
-* Follow the Smoke | China-nexus Threat Actors Hammer At the Doors of Top Tier Targets | SentinelOne
-  * SentinelOneを標的とした偵察作戦と関連する活動クラスターPurpleHazeとShadowPadについて。SentinelOne報告。活動クラスターは、2024年7月から2025年3月の間に発生した、異なるターゲットへの複数の部分的に関連した侵入にまたがります。被害者には、日本を含む南アジアの政府機関、欧州の報道機関、および幅広い分野の70以上の組織が含まれる。PurpleHazeの侵入の一部が、APT15およびUNC5174として公に報告されている中国のサイバースパイ集団の容疑者と重なる行為者と緩やかに関連していると考えている。
-  * 中国, ターゲット：セキュリティベンダー
-  * 2025年6月10日 6:29
-  * https://www.sentinelone.com/labs/follow-the-smoke-china-nexus-threat-actors-hammer-at-the-doors-of-top-tier-targets/
-
-* Analysis of the Triple Combo Threat of the Kimsuky Group
-  * Kimsukyが、2025年3月から4月にかけて実施した攻撃について。Facebook、メール、Telegramのプラットフォームのユーザーをターゲットにした高度なマルチプラットフォームキャンペーン。北朝鮮脱北者のボランティア活動に関する信憑性のあるコンテンツでターゲットを誘い込んでいた。
-  * 北朝鮮/DPRK
-  * 2025年6月10日 6:50
-  * https://www.genians.co.kr/en/blog/threat_intelligence/triple-combo?hs_amp=true
-
-* Internet Crime Complaint Center (IC3) | Home Internet Connected Devices Facilitate Criminal Activity
-  * 連邦捜査局 ( FBI ) が、サイバー犯罪者が家庭内ネットワークに接続されたモノのインターネット ( IoT ) 1デバイスを悪用し、BADBOX 2.0 を使用して犯罪行為を行っていることについて警告。サイバー犯罪者は、TV ストリーミング デバイス、デジタル プロジェクター、アフターマーケットの車載インフォテインメント システム、デジタル フォト フレームなどの IoT デバイスを侵害して、家庭内ネットワークに不正アクセスする。感染したデバイスのほとんどは中国で製造されていたとのこと。
-  * FBI, GroupA（政府組織、JASA、CISA、Gartner）, Botnet, BADBOX2.0, IoT
-  * 2025年6月10日 7:02
-  * https://www.ic3.gov/PSA/2025/PSA250605#fn2
-
 * Threat landscape for industrial automation systems. Regions, Q1 2025 | Kaspersky ICS CERT
   * 2025年第1四半期の産業オートメーションシステムのセキュリティに関する統計。カスペルスキー報告。東アジア内でのICSコンピュータで検知した脅威のトップはスパイウェア。また、東アジアはランサムウェアおよびNASでの検知率が世界1位。
   * OT, ICS, 工場セキュリティ, 統計
@@ -88,6 +58,43 @@
   * 2025年6月11日 22:11
   * https://www.interpol.int/News-and-Events/News/2025/20-000-malicious-IPs-and-domains-taken-down-in-INTERPOL-infostealer-crackdown
 
+* Sustaining Select Efforts to Strengthen the Nation's Cybersecurity and Amending Executive Order 13694 and Executive Order 14144 – The White House
+  * 大統領令13694号および14144号 を改正。ホワイトハウス発表。人工知能を活用したセキュリティの推進や中国による重要インフラネットワークに対する攻撃に言及。2025年9月2日までに、NIST SP800-53を更新しパッチとアップデートを安全かつ確実に展開する方法に関するガイダンスを提供する旨記述。また、消費者向けIoT製品を連邦政府向けに販売しているベンダーに対し、それらの製品に米国サイバートラストマークの表示を義務付ける要件を採用する方針を示した。
+  * 大統領令, GroupA（政府組織、JASA、CISA、Gartner）, OT, ICS, 工場セキュリティ, 重要インフラ, AI
+  * 2025年6月12日 5:11
+  * https://www.whitehouse.gov/presidential-actions/2025/06/sustaining-select-efforts-to-strengthen-the-nations-cybersecurity-and-amending-executive-order-13694-and-executive-order-14144/
+
+* Breaking down ‘EchoLeak’, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot | Aim Labs | Echoleak Blogpost
+  * Microsoft 365 (M365) Copilot に「EchoLeak」と呼ばれる脆弱性。脆弱性は既に修正済み。Aim Labs報告。最小権限の原則に違反しているLLMが，「権限のないメール」（つまり、
+    * 組織外から送信されたメール）によってプロンプトインジェクションを許し，権限のあるデータ（つまり、組織内から送信されたデータ）にアクセスすることが出来た。Aim Labsによると，AIアプリケーションに特有の新たな脅威であるとしている。
+  * AI, Agentic AI, 脆弱性, プロンプトインジェクション
+  * 2025年6月12日 5:12
+  * https://www.aim.security/lp/aim-labs-echoleak-blogpost
+
+* Gone But Not Forgotten: Black Basta’s Enduring Legacy - ReliaQuest
+  * Black Bastaの解散後も，元メンバーは実績のある戦術を使い続けている可能性がある。ReliaQuest報告。大量のメールスパムとそれに続くTeamsフィッシング（サポートなりすまし）は、依然として持続的かつ効果的な攻撃方法となっている。元メンバーは，CactusやBlackLockに合流した可能性があるとしている。
+  * ランサムウェア: Black Basta, ランサムウェア:Cactus, ランサムウェア：BlackLock
+  * 2025年6月12日 5:12
+  * https://reliaquest.com/blog/decline-and-legacy-of-black-basta-whats-next-ransomware-phishing/
+
+* Memo-AcceleratingSecureSoftware.pdf | Department of Defense
+  * アメリカ国防総省がソフトウェア・ファスト・トラック（SWFT）イニシアチブの開発を指示。(1)サイバーセキュリティとSCRM( Supply Chain Risk Management)の要件、(2)厳格なソフトウェアセキュリティ検証プロセス、(3)安全な情報共有メカニズム、(4)迅速なソフトウェア採用のためのサイバーセキュリティ認可を迅速化する連邦政府主導のリスク判定を明確かつ具体的に定義するものであるとしている。
+  * GroupA（政府組織、JASA、CISA、Gartner）, SBOM
+  * 2025年6月12日 5:19
+  * https://dodcio.defense.gov/Portals/0/Documents/Library/Memo-AcceleratingSecureSoftware.pdf
+
+* 偽CAPTCHA認証の指示で利用者を操りマルウェア感染させる攻撃キャンペーンを確認 | トレンドマイクロ | トレンドマイクロ (JP)
+  * 偽のCAPTCHAページを用いた攻撃事例が急増している。トレンドマイクロ報告。攻撃手口は、フィッシングメール、不正URLを用いた誘導手口、不正広告、SEOポイズニングなどを介して到達する。
+  * 攻撃手法:ClickFix
+  * 2025年6月12日 5:21
+  * https://www.trendmicro.com/ja_jp/research/25/f/unmasking-fake-captcha-cases.html
+
+* Two Botnets, One Flaw: Mirai Spreads Through Wazuh Vulnerability | Akamai
+  * Botnet Miraiの亜種がWazuhの脆弱性を通じて拡散している。Akamai社報告。2025 年 2 月の最初の開示以来、この脆弱性を悪用した最初のアクティブな攻撃として報告された。
+  * Mirai
+  * 2025年6月12日 5:22
+  * https://www.akamai.com/blog/security-research/botnets-flaw-mirai-spreads-through-wazuh-vulnerability
+
 
 
 
@@ -98,3 +105,4 @@
 [20250606](https://github.com/IPA-CyberLab/Curation/blob/20250606/news.json)  
 [20250608](https://github.com/IPA-CyberLab/Curation/blob/20250608/news.json)  
 [20250610](https://github.com/IPA-CyberLab/Curation/blob/20250610/news.json)  
+[20250611](https://github.com/IPA-CyberLab/Curation/blob/20250611/news.json)  
