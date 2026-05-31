@@ -1,5 +1,3 @@
-<img width="369" height="97" alt="image" src="https://github.com/user-attachments/assets/ba2787a4-9925-4a2b-8443-dbe0fc26a842" /><img width="461" height="97" alt="image" src="https://github.com/user-attachments/assets/f64007bb-ac9f-4260-8376-a886db5f02aa" /># CyberSecurity News Curation
-
 ## 概要
 
 このリポジトリでは、サイバーセキュリティに関する最新のニュースやトピックをキュレーションし、整理して掲載しています。
