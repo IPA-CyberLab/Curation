@@ -24,42 +24,64 @@
 当リポジトリは情報提供を目的としており、記載された内容の正確性・完全性を保証するものではありません。
 本リポジトリに掲載した内容は予告なく変更することがあります。
 
-# 2026年7月 サイバー脅威動向レポートサマリー
+# 2026年9月 サイバー脅威動向レポートサマリー
 
 ## 1. AI技術に関連する攻撃と悪用
 
-* 多層防御（検知エンジニアリングの重要性）。SpecterOpsのAdam Chesterが、GPT-5.5-CyberとBinary NinjaをCodex-CLI経由で組み合わせたシンプルなループハーネス「Day Shift」を用い、Cortex XDRのローカル検知ロジックを全自動で解析・抽出した。
-  + URL: https://specterops.io/blog/2026/06/29/llm-powered-edr-analysis/
-* AIコーディングエージェント起因のアラートが増加する可能性。ブラウザの認証情報の復号化、Windows認証情報ストアの一覧表示、組み込みシステムツールによるファイルダウンロード、スタートアップフォルダへの書き込みといった挙動がEDRに検知されている（Sophos報告）。
-  + URL: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
-* AIエージェントを狙った攻撃HalluSquatting。流行しているリポジトリやプラグインを対象に、攻撃者はAIにそのリソースを繰り返し取得させ、AIが最も頻繁に生成する偽名を記録する。
-  + URL: https://sites.google.com/view/agentic-botnets/home
+* AIの悪用を検知し、対策する：2026年9月。脅威アクターがClaudeを悪用しようとした作戦を特定・阻止した事例のレポート。AIの利用はチャットボットによる単純な質問と応答にとどまらず、偵察、悪用、データ漏洩を実行するマルチエージェントフレームワークの利用にまで及んだ。GTG-20006は、セキュリティ製品に検出された場合にツールキットを自動的に再構築して再展開するAI支援ワークフローを開発していた。
+  + URL: https://www.anthropic.com/threat-intelligence-report-september-2026
+* GTIG AI脅威トラッカー：プロンプトから自律性へ – 敵対的AIの進化。先進的な攻撃者が基本的なプロンプトからエージェント型AIワークフローやAIを活用した自動化へと移行していることを確認。人間が関与する遅延が劇的に減少し、防御側が対応できる従来の時間が短縮されている。
+  + URL: https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai/
 
-## 2. 国家支援型攻撃
+## 2. 攻撃手法
 
-* 北朝鮮。開発者の採用やコードレビューといったテーマを利用してフィッシングキャンペーンを仕掛け、金融、暗号通貨、教育、テクノロジーなどを標的としている。攻撃の起点は、攻撃者が管理するGitHubリポジトリへのリンクを含むメールや、Microsoftアカウントのセキュリティ通知を装ったスピアフィッシングメッセージなど。
-  + URL: https://www.proofpoint.com/us/blog/threat-insight/dont-fear-repo-unkdeaddrop-phishing-campaign-targets-developers-steal
-  + URL: https://www.genians.co.kr/en/blog/threat_intelligence/narwhalrat
-* 中国。重要インフラを狙ったとみられる攻撃を展開中。日本向けには製造業を狙い、BYOVD（正規だが脆弱性があるドライバー）をインストールして攻撃に利用する手法が観測されている。「amsdk.sys」「wsftprm.sys」「BootRepair.sys」「EnPortv.sys」の4つについてアラートを検知した場合は注意。スピアフィッシングおよびASPX Webシェルなどを起点に偵察とツール配信を行い、その後SoftEther VPN、Yuze、VNTを使用してリモート通信を確立する。
-  + URL: https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
-  + URL: https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html
-  + URL: https://www.acronis.com/en/tru/posts/mustang-panda-targets-indias-government-and-energy-sectors/
-* ロシア。Turlaに関連する記事が増加。フィッシングメール、感染したウェブサイトへのアクセス、脆弱な公開サーバが攻撃手法。
-  + URL: https://www.cert.ssi.gouv.fr/uploads/CERTFR-2026-CTI-005.pdf
-  + URL: https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/?hl=en
+* VectraRAT：文書化されていない、ゼロから構築されたフルスタックMaaS。流出したRATコードをフォークするのではなく完全にゼロから構築されたマルウェアサービスプラットフォーム。月額250ドルからレンタル可能で、デスクトップの隠し制御、キーロギング、クリップボードのハイジャック、ブラウザ認証情報の窃盗、プロンプトなしで権限昇格を行うUACバイパスなどの機能を提供。オペレーター「Vectra」は「Nyxel」のリブランド。
+  + URL: https://socradar.io/blog/vectrarat-undocumented-stack-maas/
+* SloppyRAT：ランサムウェア攻撃のための新たなツール。多段階のClickFix感染チェーンを通じて配信されている。多数の組み込みPowerShellライクなコマンド、暗号化されたコードブロック、Polygon JSON-RPCプロトコルを介したC2解決のためのEtherHiding、複数のアンチアナリシス機能をサポート。
+  + URL: https://www.zscaler.com/blogs/security-research/sloppyrat-new-tool-ransomware-attacks
 
-## 3. 一般社員向け
+## 3. 国家支援型攻撃
 
-* GitHubの公開設定について再点検。2026年7月9日、米国のサイバーセキュリティ・インフラストラクチャセキュリティ庁（CISA）が、委託先担当者の個人用GitHubリポジトリを通じて同庁のAWS認証情報などが長期間インターネット上に公開状態にあった事案について、対応の経緯と教訓をまとめた公式ブログを公表した。
-  + GitGuardianの分析によれば、「Private-CISA」リポジトリは2025年11月13日に作成されて以降、CISAのビルド・デプロイ用リポジトリのコピーや管理者・ビルド用の認証情報が継続的に公開状態でコミットされていた。
-  + 容量は作業ツリー498MB・Git履歴等346MBの合計844MB。AWS GovCloudの管理者認証情報、CI/CDのビルドログ、Kubernetesマニフェスト、Terraformコード、GitHub Actionsのワークフロー、Entra IDのSAML証明書、内部システムのプレーンテキストパスワードが含まれていた。
-  + 一次対応として公開リポジトリのオフライン化、開発環境のオフライン化と認証情報のリセット、漏洩させた人物のアクセス権剥奪を実施。調査の結果、漏洩した認証情報はCISA環境外では使用されておらず、顧客データや任務データの漏洩はないことを確認した。
-  + 是正措置として、当該人物に管理者権限が付与されていたすべての環境の認証情報をローテーションし、コードリポジトリの許可／拒否リストを調整、ユーザーが公開コードリポジトリにアップロードする機能を制限した。
-  + URL: https://piyolog.hatenadiary.jp/entry/2026/07/13/123024
-  + URL: https://www.cisa.gov/news-events/news/lessons-cisas-cyber-incident
-  + URL: https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/
+* アジアで活動レベルが高いアクターの一覧（2026年上半期）。
+  + URL: https://cyble.com/blog/most-active-threat-actors-h1-2026/
+* 北朝鮮。北朝鮮労働者と疑われる人物に関する考察。注意すべき危険信号として、PiKVM および Guermok デバイス（特に両方が同一ユーザーアカウントで使用されている場合）が挙げられている。Defender は device_description に PiKVM または Guermok が含まれている場合に Windows セキュリティイベント ID 6416 で警告を発し、レジストリパス `HKLM\SYSTEM\CurrentControlSet\Enum\USB` の FriendlyName 値（PiKVM Composite Device、Guermok USB3 Video など）を調査できる。また、VDO.Ninja、タブ録画用のChromeプラグイン、ファイル送信用のToffeeshare など、画面・音声・動画のリダイレクトや録画、マイクテスト、翻訳、ファイル共有に関連するウェブサービスとブラウザ拡張機能の利用も確認されている。
+  + URL: https://www.huntress.com/blog/huntress-dprk-remote-worker-investigation
+* ロシア。正規の認証フローを悪用して、ヨーロッパ全域の学術機関、航空宇宙・防衛機関、政府機関、シンクタンク、および米国の学術機関やシンクタンクで働く個人を標的とする3つの脅威クラスターをGTIGが追跡。攻撃者はターゲットにアカウントへ特定のアプリパスワードを設定するよう説得し、そのパスワードを使用して2要素認証を必要とせずにアカウントへアクセスする。UNC7005はMicrosoftアカウントとWhatsAppアカウントの両方を対象としたデバイスコードフィッシング攻撃も行っている。手口は、標的の分野に関連する著名な組織の人物との通話への招待、最近では外交イベントや会議への招待など。
+  + URL: https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/
 
-## 4. その他
+## 4. 一般社員向け
 
-* IPA：中小企業のセキュリティ、今から取り組むなら「SCS評価制度」を参考に。★3は広く知られた脆弱性を悪用するような一般的なサイバー攻撃に対処できる水準で「全てのサプライチェーン企業が最低限実施すべきセキュリティ対策」、★4はサプライチェーン全体に打撃を与える攻撃まで見据えた「サプライチェーン企業等が標準的に目指すべきセキュリティ対策」とされる。「対応しなければ取引から外される」と不安を煽り、「このツールさえ入れれば安心」と特定の製品へ誘導するといった売り込みに注意。
-  + URL: https://internet.watch.impress.co.jp/docs/special/2121836.html
+* AIを利用した役員なりすましや請求書詐欺から組織を守る。攻撃者は不審なメールを正規のメール通知に見せかけるため、経営陣メンバーからの内部送信メールを偽装する手法を用いている。AIの導入により、キャンペーンテンプレートを改善し受信者に合わせたメールを作成できるようになった。さらに1通のメール内で複数の手法を組み合わせ、全体的なストーリーをより巧妙に作り上げている。
+  + URL: https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/
+* ClickFixがブラウザに進出：GoogleがホストするC2による仮想通貨窃盗。Google Visualization APIをC2に悪用し、公開されているGoogleスプレッドシートから難読化されたJavaScriptを取得して被害者のブラウザセッションに挿入するキャンペーン（Cisco Talos）。
+  + URL: https://blog.talosintelligence.com/clickfix-moves-into-the-browser/
+* ITサポートになりすます：脅威アクターがリモートセッションを企業全体へのアクセスに変える方法。Microsoft Teams の外部コラボレーションを悪用して IT サポートになりすまし、リモートアクセスを取得し、Node.js ベースのインプラントを展開する、人間が操作する侵入キャンペーン。
+  + URL: https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/
+* TerminalFixキャンペーンは、多段階侵入を通じて逆トンネルを展開する。ClickFixの亜種で、侵害されたWebサイトを使用して偽のCloudflare CAPTCHA検証オーバーレイを表示し、ユーザーを騙して悪意のあるPowerShellコマンドをコピーして実行させる。従来のClickFixが「ファイル名を指定して実行」ダイアログに誘導するのに対し、TerminalFixはWindowsターミナルまたはPowerShellに誘導するため、複雑な複数行のスクリプトが正常に実行される可能性が高くなる。
+  + URL: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
+
+## 5. 開発者向け
+
+* PhantomRaven：バグ報奨金獲得のために開発された、LLM生成型の情報窃盗マルウェア。バグバウンティハンターとして活動する金銭目的の脅威アクターが、JavaScriptベースの情報窃盗マルウェアを開発し npm を通じて配布していた。冗長なコメント、プレースホルダーコード、統計的手法に基づき、LLM生成であると高い確信度で評価されている。
+  + URL: https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/
+
+## 6. 業界関連情報
+
+* 国際流星機構（IMO）が、サイバー攻撃によりウェブサイトが「致命的な打撃」を受けたと発表。老朽化したインフラに深刻な打撃を与える攻撃を受けサイトの大部分がオフラインになり、数週間の部分的なダウンタイムが見込まれるとしている。
+  + URL: https://therecord.media/international-meteor-organization-cyberattack
+* MITREの評価制度変更に伴い、大手サイバーセキュリティベンダー各社が英国の新たなテストプログラムに注目。SE Labs が購入者がベンダーを評価するためのテストプログラム「PIVOT」を9月15日に発表。Broadcom、CrowdStrike、Fortinet、Palo Alto Networks、Sophos などが参加する6か月間のプログラムで、世界で最も危険なハッキンググループや攻撃手法にどれだけ効果的に対抗できるかを評価する。
+  + URL: https://selabs.uk/pivot/
+
+## 7. 権威ドキュメント
+
+* サイバーデコイを使用して探知と対応を強化する。CISAが、サイバーセキュリティ成熟度の異なる防御チームがデコイ戦略を計画・実装するのに役立つガイダンスを作成。多くの組織は、正規の認証情報、ネイティブツール、Living Off the Land（LOTL）技術を使用する攻撃者の検出に苦労している。サイバーデコイは正規のシステム、アカウント、データのように見える資産で、注意をそらすように設計されている。
+  + URL: https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response
+* ポスト量子時代への備え：行動への呼びかけ。CISAとG7サイバーセキュリティワーキンググループが、新たな量子コンピューティングの脅威から機密データ、認証システム、重要資産を保護するため、ポスト量子暗号（PQC）への移行を早急に開始する必要があることを強調。移行を成功させるための5つの優先事項を概説している。
+  + URL: https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action
+
+## 8. OTセキュリティ
+
+* 産業インフラを脅かすもの：フロンティアAIが変えるリスクの構図。APTグループが、将来の戦略的な利用に向けて持続的なアクセスを確保するため、OT環境の構成を積極的に調べているとのレポート。
+  + URL: https://www.trendaisecurity.com/ja/resources-insights/deep-research/critical-infrastructure-under-threat-how-frontier-ai-changes-the-risk-equation
+* 産業インフラを標的とする犯罪経済の全体像。産業・エネルギー・製造（IE&M）分野のアンダーグラウンドは将来のリスクではなく、今まさに稼働している経済である。アクセスブローカーは、窃取された認証情報や銀行データの取引に使われるのと同じフォーラム上で、同じエスクローと評価の仕組みを使い、工場、公益事業、エネルギー企業への足がかりを販売している。BreachForumsでは、タイの製造業者の生産システムが25米ドル、ドイツの再生可能エネルギー企業の内部データベースが12 BTC（約74万8,000米ドル）で出品されている。アクセスブローカー市場の中心に位置するのは製造業で、ロシア語圏および英語圏のフォーラムの販売者はVPNやRDP経由のアクセスを出品している。
+  + URL: https://www.trendaisecurity.com/ja/resources-insights/deep-research/mapping-the-criminal-economy-targeting-critical-infrastructure
