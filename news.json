@@ -1,9 +1,9 @@
 [
   {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "AIの悪用を検知し、対策する：2026年9月",
-    "summary": "過去8か月間、Anthropicの脅威インテリジェンスチームは、脅威アクターがClaudeを悪用しようとした作戦を特定し、阻止した。本レポートで説明されている作戦の大部分は、AIによる直接実行またはオーケストレーションによって実現された。AIの利用は、チャットボットによる単純な質問と応答にとどまらず、偵察、悪用、データ漏洩を実行するマルチエージェントフレームワークの利用にまで及んだ。攻撃対象の設定やデータ漏洩の確認といった形で、人間も関与していた。この傾向の一例としてGTG-20006が挙げられる。この攻撃者は、セキュリティ製品に検出された場合にツールキットを自動的に再構築して再展開する、AI支援ワークフローを開発した。",
-    "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "GTIG AI脅威トラッカー：エージェントによる脅威活動が重大な閾値を超える",
+    "summary": "脅威アクターが基本的なプロンプトを超えて、自律型マルチエージェントフレームワーク、自動化された脆弱性悪用パイプライン、LLMJackingのような代替収益化スキームを展開するようになっている，Google報告。金銭目的の攻撃者は、侵害された企業環境からLLM認証情報とクラウドリソースを盗み出し、アンダーグラウンドのプロキシサービス（例：LLM Mixers）を通じて高性能AIモデルへのアクセスを再販することで、LLMJackingから利益を得ているとのこと。",
+    "source_url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold?hl=en",
     "related_link": [],
     "tags": [
       "AI",
@@ -11,10 +11,21 @@
     ]
   },
   {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "GTIG AI脅威トラッカー：プロンプトから自律性へ – 敵対的AIの進化",
-    "summary": "人工知能（AI）の悪用に関するレポート以降、Google脅威インテリジェンスグループ（GTIG）は、先進的な攻撃者が基本的なプロンプトからエージェント型AIワークフローやAIを活用した自動化へと移行していることを確認している。これらの作戦では、人間が関与する遅延が劇的に減少し、防御側が対応できる従来の時間が短縮されている。2026年第2四半期には、GTIGは、攻撃者がクラウドリソースを侵害し、その後、計画を立て、実行に移す様子を確認した。",
-    "source_url": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai/",
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "米国企業による中国製オープンウェイトAIの利用が下院委員長らから非難を浴びる",
+    "summary": "新たに発表された議会報告書は、一部の米国企業が中国で開発されたオープンウェイトAIモデルを自社の技術スタックに組み込んでいる現状に焦点を当て、この傾向を憂慮すべきものとし、米国企業に対し同様の行為を行わないよう警告している。ファーウェイとZTEの技術が市場で急速に地位を確立し、米国のネットワークを脅かした事例を挙げ、この報告書は、中国で開発されたオープンウェイトモデルが定着した場合、将来的にそれらを排除するには数年かかるだろうと警告している。",
+    "source_url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+    "related_link": [],
+    "tags": [
+      "AI",
+      "China"
+    ]
+  },
+  {
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "欧州委員会はサイバー攻撃を確認し、ハッカーがAIツールを使用したと発表した",
+    "summary": "欧州委員会は木曜日、メディア報道を受け、先月、公開されている人工知能ツールを用いたサイバー攻撃を受けていたことを確認した。委員会報道官のトーマス・レニエ氏は記者団に対し、攻撃の最初の兆候は10月22日に検出されたと述べた。同氏は今回の事件を「AIによるサイバー攻撃」と表現したが、使用されたツールや攻撃者の動機については明らかにしなかった。POLITICOが最初に、欧州委員会がサイバー攻撃を受けていたことを報じた。",
+    "source_url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
     "related_link": [],
     "tags": [
       "AI",
@@ -22,175 +33,117 @@
     ]
   },
   {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "VectraRAT：文書化されていない、ゼロから構築されたフルスタックMaaS",
-    "summary": "SOCRadarの脅威調査ユニット（STRU）は、流出したRATコードをフォークするのではなく、完全にゼロから構築されたマルウェアサービスプラットフォームであるVectraRATについて文書化した。月額250ドルからレンタル可能で、オペレーターはデスクトップの隠し制御、キーロギング、クリップボードのハイジャック、ブラウザ認証情報の窃盗、プロンプトなしで権限昇格を行うUACバイパスなどの機能を利用できる。オペレーター「Vectra」は「Nyxel」のリブランド。",
-    "source_url": "https://socradar.io/blog/vectrarat-undocumented-stack-maas/",
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "アフリカの主要証券取引所がAI支援型攻撃の標的に",
+    "summary": "2026年9月20日、41個のPowerShellモジュールがWebシェル上で3分強にわたって実行され、数秒ごとに新しいモジュールが起動した。これらのモジュールは認証情報と秘密情報を探し出し、取引所の金融システムに対してテストを行った。同一サーバー上に埋め込まれた6つの永続的なマルウェアは、中国と関連のあるスパイ集団Witchettyによるものと高い確度で判断できるが、AIが作成したツールキットについては、いずれの集団にも帰属させることはできない。",
+    "source_url": "https://www.security.com/threat-intelligence/african-stock-exchange-ai-assisted-attack",
+    "related_link": [],
+    "tags": [
+      "AI",
+      "China",
+      "Threat Actors/APT"
+    ]
+  },
+  {
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "攻撃者が標的を選び、残りはAIが行う",
+    "summary": "近年AIに主導権を委ねるケースが増えている，symantec報告。2026年10月に報告した「Skynet」エージェントは、大規模言語モデル（LLM）を攻撃ツールの中核に組み込んでいた。このツールには、偵察、悪用、認証情報の窃盗、ボットネット制御など、約74個の呼び出し可能な関数が搭載されていた。運用者は、この無人モードを「Skynetモード」と呼び、人間の承認なしに最大10万ステップまで実行できるように設定していた。",
+    "source_url": "https://www.security.com/threat-intelligence/cyber-ai-predictions-2027",
+    "related_link": [],
+    "tags": [
+      "AI",
+      "Attack trends"
+    ]
+  },
+  {
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "emp3r0r",
+    "summary": "マルチオペレーターC2システムEmperorについて、jm33-m0公開。AIで動き、EDRの検知回避ループを搭載していると記載。",
+    "source_url": "https://github.com/jm33-m0/emp3r0r",
+    "related_link": [],
+    "tags": [
+      "AI",
+      "Attack trends"
+    ]
+  },
+  {
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "攻撃者はいかにして脆弱性のエコシステムを防御者に対して利用しているのか",
+    "summary": "ゼロデイ脆弱性の利用速度について，クラウドストライク報告。2026年1月から7月にかけて観測した実際の攻撃事例を分析したところ、脆弱性の概念実証（POC）が公開されてから脅威アクターが悪用するまでの平均時間は1日未満で、公開POC公開後最短で35分という事例も確認された。CrowdStrikeが脅威アクターによる悪用を確認した公開POCのある脆弱性のうち、91%はPOC公開後48時間以内に悪用されていた。",
+    "source_url": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
     "related_link": [],
     "tags": [
       "Attack trends",
-      "InfoStealer"
+      "Statistics",
+      "for Developper"
     ]
   },
   {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "SloppyRAT：ランサムウェア攻撃のための新たなツール",
-    "summary": "2026年6月、Zscaler ThreatLabzは、ランサムウェア関連の脅威アクターによって悪用されている可能性が高い、SloppyRATという名称の新しいマルウェアファミリーを特定した。ThreatLabzは、SloppyRATが多段階のClickFix感染チェーンを通じて配信されていることを確認した。このマルウェアは、多数の組み込みPowerShellライクなコマンド、暗号化されたコードブロック、Polygon JSON-RPCプロトコルを介したコマンド＆コントロール（C2）解決のためのEtherHiding、および複数のアンチアナリシス機能など、さまざまな機能をサポートしている。",
-    "source_url": "https://www.zscaler.com/blogs/security-research/sloppyrat-new-tool-ransomware-attacks",
-    "related_link": [],
-    "tags": [
-      "Ransomware",
-      "ClickFix",
-      "Attack trends"
-    ]
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "アジアで活動レベルが高いアクター（2026年上半期）",
-    "summary": "2026年上半期にアジア地域で活動レベルが高かった脅威アクターの一覧。",
-    "source_url": "https://cyble.com/blog/most-active-threat-actors-h1-2026/",
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "アクターサマリー（2026年11月）：北朝鮮・中国・ロシア・イランの動向",
+    "summary": "北朝鮮。開発者やDevOps環境を標的としたサプライチェーン攻撃が増加している。Famous Chollimaは、偽の求人面接とClickFixを利用してNode.jsベースのマルウェアを配布し、Jade Sleetは悪意のあるTerraformプロバイダーを介してFLATROOFとROOFDECKを配信した。さらに、Binanceの侵害事件では、攻撃者はDevOpsエンジニアのデバイスを足がかりとして内部出金システムとホットウォレット署名インフラストラクチャにアクセスし、約63億ドル相当の仮想通貨を盗み出した。中国。APT41は、CVE-2022-21894を悪用したBlackX UEFIブートキット（ファームウェアレベルで動作するマルウェア）を使用して、外交機関への長期侵入を実行した。TA419は、AiTMフィッシングとBitBを組み合わせてMicrosoft 365の認証情報窃盗とセッションクッキー窃盗を試み、AI政策専門家を標的にした。Vapor Pandaは、ARTEX（DeepSeekベースのAI侵入フレームワーク）を使用して脆弱性の悪用、権限昇格、内部偵察を自動化し、少なくとも9つの組織への侵入が確認された。ロシア。APT28は、悪意のあるWord文書とHookedgeを使用してNATO加盟国の法執行機関と防衛請負業者を標的にし、SSHリバーストンネルを確立してNTLM認証情報を収集しようとした。Insolent Werewolfは、NightStrike RAT、AdaptixC2、およびHavocを使用して、政府機関と防衛研究機関に対して情報収集を行った。イラン。CL-STA-1178は、ドバイ空港の求人を装った悪意のあるVisual Studioプロジェクトを配信して、イラクのインフラ部門の開発者を標的にし、ShelbyLoader V2とShelbyC2 V2を実行した。Chiselトンネルを介して、永続的なリモートアクセスと内部ネットワークへの侵入の足がかりを確保した。",
+    "source_url": "https://asec.ahnlab.com/en/96569/",
     "related_link": [],
     "tags": [
       "Threat Actors/APT",
+      "DPRK",
+      "China",
+      "Russia",
+      "for Developper",
+      "Crypto",
+      "ClickFix"
+    ]
+  },
+  {
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "ブラックフライデー、要注意：あまりにもお得すぎるセールには、実は危険な要素が隠されている",
+    "summary": "ブラックフライデーに急増するフィッシングメールへの注意喚起。カスペルスキー報告。11月の最初の2週間で、220,071件を超える販売促進を目的としたスパムメールを検出した。これは2025年と比較して50.2%の増加とのこと。",
+    "source_url": "https://securelist.com/black-friday-threat-report-2026/122061/",
+    "related_link": [],
+    "tags": [
+      "Phishing",
       "Statistics"
     ]
   },
   {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "北朝鮮労働者と疑われる人物に関する考察",
-    "summary": "注意すべき危険信号として、PiKVM および Guermok デバイス、特に両方がユーザーアカウントで使用されている場合が挙げられている。Defender は、device_description に PiKVM または Guermok が含まれている場合、Windows セキュリティイベント ID 6416 で警告を発し、Windows レジストリパス HKLM\\SYSTEM\\CurrentControlSet\\Enum\\USB、特に PiKVM Composite Device や Guermok USB3 Video などの FriendlyName 値を調査できる。画面、音声、動画のリダイレクトや録画、マイクテスト、翻訳、ファイル共有に関連するウェブサービスとブラウザ拡張機能として、VDO.Ninja、タブ録画用のChromeプラグイン、ファイル送信用のToffeeshare など、ブラウザベースの画面ストリーミングに関連する不審なプロセスが確認された。また、攻撃者がオンラインのマイクおよびウェブカメラテストサイトを利用していることも確認された。",
-    "source_url": "https://www.huntress.com/blog/huntress-dprk-remote-worker-investigation",
-    "related_link": [],
-    "tags": [
-      "DPRK",
-      "Threat Actors/APT"
-    ]
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "流れに身を任せる：ロシアが関心を持つ個人を標的とする明確なグループ",
-    "summary": "Google Threat Intelligence Group（GTIG）は、正規の認証フローを悪用してヨーロッパ全域の学術機関、航空宇宙・防衛機関、政府機関、シンクタンク、および米国の学術機関やシンクタンクで働く個人を標的とする、ロシアによるサイバー諜報活動の疑いのある3つの異なる脅威クラスターを追跡している。攻撃者はターゲットにアカウントに特定のアプリパスワードを設定するよう説得し、その後、攻撃者はそのパスワードを使用して、2要素認証（2FA）を必要とせずにアカウントにアクセスする。UNC7005は、MicrosoftアカウントとWhatsAppアカウントの両方を対象としたデバイスコードフィッシング攻撃も行っている。これらのフィッシング攻撃の手口は、標的の分野に関連する著名な組織の人物との通話への招待、あるいは最近では外交イベントや会議への招待などである。",
-    "source_url": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
-    "related_link": [],
-    "tags": [
-      "Russia",
-      "Phishing",
-      "Threat Actors/APT"
-    ]
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "AIを利用した役員なりすましや請求書詐欺から組織を守る",
-    "summary": "攻撃者は、潜在的な被害者に対して不審なメールを正規のメール通知に見せかけるため、戦術をますます高度化させており、経営陣メンバーからの内部送信メールを偽装する手法を用いている。この手法自体は新しいものではないが、AIの導入により、攻撃者はキャンペーンテンプレートを改善し、受信者に合わせたメールを作成できるようになった。さらに、攻撃者は1通のメール内で複数の手法を組み合わせることで、全体的なストーリーをより巧妙に作り上げている。",
-    "source_url": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "BYOVDを介した国内セキュリティ製品の侵害の試み：正規のAIツールを装ったマルウェア配布にご注意ください",
+    "summary": "正規のAIツールを装ったマルウェアにBYOVD（Bring Your Own Vulnerable Driver）を組み込むことで、韓国国内のセキュリティ対策を回避しようとする試みについて，AhnLab報告。このマルウェアは、正規のAIツール配布ページを装ったウェブサイトを通じて配布されているとのこと。",
+    "source_url": "https://asec.ahnlab.com/en/96708/",
     "related_link": [],
     "tags": [
       "AI",
+      "Attack trends"
+    ]
+  },
+  {
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "2026年10月インフォスティーラートレンドレポート",
+    "summary": "2026年10月中に観測された，インフォスティーラーの攻撃手法について。Ahnlab報告。マルウェアの配布は、SEOポイズニング（検索結果の上位表示を目的とした手法）、ファイルホスティングサービス、クラウドストレージ、Mega、Mediafireなどのプラットフォームを通じて行われている。",
+    "source_url": "https://asec.ahnlab.com/en/96698/",
+    "related_link": [],
+    "tags": [
+      "InfoStealer",
+      "Attack trends"
+    ]
+  },
+  {
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "タイポスクワッターが大手ブランドの新規ドメインを登録後わずか1日でコピー",
+    "summary": "タイポスクワッターの攻撃速度について，Symantech報告。悪意のある攻撃者が、大手ブランドの新しいドメインが登録されるたびに、そのドメインと一文字だけ似た偽のドメインを登録していた。攻撃者は企業が自社の名称を保護するために利用している専門のドメイン登録業者を監視していたとのこと。",
+    "source_url": "https://www.security.com/threat-intelligence/typosquatting-new-brand-domains",
+    "related_link": [],
+    "tags": [
+      "for Developper",
       "Phishing"
     ]
   },
   {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "ClickFixがブラウザに進出：GoogleがホストするC2による仮想通貨窃盗",
-    "summary": "Cisco Talosは、Google Visualization APIをコマンド＆コントロール（C2）に悪用し、公開されているGoogleスプレッドシートから難読化されたJavaScriptを取得して被害者のブラウザセッションに挿入する、暗号通貨窃盗キャンペーンを追跡している。",
-    "source_url": "https://blog.talosintelligence.com/clickfix-moves-into-the-browser/",
-    "related_link": [],
-    "tags": [
-      "ClickFix",
-      "Crypto",
-      "Attack trends"
-    ]
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "ITサポートになりすます：脅威アクターがリモートセッションを企業全体へのアクセスに変える方法",
-    "summary": "Microsoft Threat Intelligence は、Microsoft Teams の外部コラボレーションを悪用して IT サポートになりすまし、リモートアクセスを取得し、Node.js ベースのインプラントを展開する、人間が操作する侵入キャンペーンを確認した。",
-    "source_url": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/",
-    "related_link": [],
-    "tags": [
-      "Phishing",
-      "Attack trends"
-    ]
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "TerminalFixキャンペーンは、多段階侵入を通じて逆トンネルを展開します",
-    "summary": "Microsoft Threat Intelligenceは、ClickFixの亜種であるTerminalFixキャンペーンが、複数の業界の組織を標的にしていることを確認した。このキャンペーンは、侵害されたWebサイトを使用して偽のCloudflare CAPTCHA検証オーバーレイを表示し、ユーザーを騙して悪意のあるPowerShellコマンドをコピーして実行させる。従来のClickFixキャンペーンは被害者をWindowsの「ファイル名を指定して実行」ダイアログに誘導するが、TerminalFixキャンペーンは同じ手法を用いながらも、ユーザーをWindowsターミナルまたはPowerShellに誘導するため、複雑な複数行のスクリプトが正常に実行される可能性が高くなる。",
-    "source_url": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
-    "related_link": [],
-    "tags": [
-      "ClickFix",
-      "Attack trends"
-    ]
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "PhantomRaven：バグ報奨金獲得のために開発された、LLM生成型の情報窃盗マルウェア",
-    "summary": "CrowdStrike Counter Adversary Operationsは、バグバウンティハンターとして活動する金銭目的の脅威アクターが、JavaScript（JS）ベースの情報窃盗マルウェア「PhantomRaven」を開発し、npmを通じて配布していたことを特定した。冗長なコメント、プレースホルダーコード、統計的手法に基づいて高い確信度で評価されている。",
-    "source_url": "https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/",
-    "related_link": [],
-    "tags": [
-      "for Developper",
-      "InfoStealer",
-      "AI"
-    ]
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "国際流星機構は、サイバー攻撃によりウェブサイトが「致命的な打撃」を受けたと発表した",
-    "summary": "国際流星機構（IMO）は、流星追跡を担う主要国際機関のウェブサイトがサイバー攻撃により閉鎖された。IMOはFacebookページを通じて小惑星や流星の追跡を続けているが、ウェブサイトには現在、サイバー攻撃を知らせる静的ページが表示されている。「最近、老朽化したインフラに深刻な打撃を与えるサイバー攻撃を受け、サイトの大部分がオフラインになった。数週間、部分的なダウンタイムが続く見込みだ」とIMOは述べている。",
-    "source_url": "https://therecord.media/international-meteor-organization-cyberattack",
-    "related_link": [],
-    "tags": [
-      "Attack trends"
-    ]
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "MITREの評価制度変更に伴い、大手サイバーセキュリティベンダー各社が英国の新たなテストプログラムに注目",
-    "summary": "英国を拠点とするセキュリティテスト・アドバイザリー企業SE Labsが、購入者がサイバーセキュリティベンダーを評価するための新たなテストプログラムを立ち上げた。このプログラムには、SymantecとCarbon Blackの親会社であるBroadcom、CrowdStrike、Fortinet、Palo Alto Networks、Sophosなどが含まれる。PIVOTと呼ばれるこの6か月間のテストプログラムは、9月15日にSE Labsによって発表された。同プログラムでは、サイバーセキュリティベンダーが世界で最も危険なハッキンググループや攻撃手法にどれだけ効果的に対抗できるかを評価する模様。",
-    "source_url": "https://selabs.uk/pivot/",
+    "archive_date": "2026-11-26T00:00:00",
+    "title": "インシデント調査報告書受領時のチェックリスト",
+    "summary": "調査を依頼する組織と報告書を作成する担当者が、共通認識を持ってインシデント調査を円滑に進めるための「インシデント調査報告書チェックリスト」をJPCERT/CCが公開。報告書の構成や、調査結果・根拠の記載例が含まれる。",
+    "source_url": "https://blogs.jpcert.or.jp/ja/2026/11/ir_report_checklist.html",
     "related_link": [],
     "tags": []
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "サイバーデコイを使用して探知と対応を強化する",
-    "summary": "CISAはサイバーセキュリティ成熟度の異なる防御チームが、検出および対応能力を強化するサイバーデコイ戦略を計画および実装するのに役立つようにガイダンスを作成した。多くの組織は、正規の認証情報、ネイティブツール、およびLiving Off the Land（LOTL）技術を使用して発見、横方向の移動、およびデータへのアクセスを行う攻撃者を検出するのに苦労している。サイバーデコイは、正規のシステム、アカウント、またはデータのように見える資産であるが、注意をそらすように設計されている。",
-    "source_url": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
-    "related_link": [],
-    "tags": []
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "ポスト量子時代への備え：行動への呼びかけ",
-    "summary": "CISAとG7サイバーセキュリティワーキンググループは、「ポスト量子時代への備え：行動への呼びかけ」を発表し、組織や政府が、新たな量子コンピューティングの脅威から機密データ、認証システム、重要資産を保護するために、ポスト量子暗号（PQC）への移行を早急に開始する必要があることを強調した。G7サイバーセキュリティワーキンググループの行動への呼びかけは、PQCへの移行を成功させるための5つの優先事項を概説している。",
-    "source_url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
-    "related_link": [],
-    "tags": []
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "産業インフラを脅かすもの：フロンティアAIが変えるリスクの構図",
-    "summary": "APT（Advanced Persistent Threat）グループは、将来の戦略的な利用に向けて持続的なアクセスを確保するため、運用技術（OT）環境の構成を積極的に調べているとのレポート。",
-    "source_url": "https://www.trendaisecurity.com/ja/resources-insights/deep-research/critical-infrastructure-under-threat-how-frontier-ai-changes-the-risk-equation",
-    "related_link": [],
-    "tags": [
-      "AI",
-      "ICS",
-      "Threat Actors/APT"
-    ]
-  },
-  {
-    "archive_date": "2026-09-30T00:00:00",
-    "title": "産業インフラを標的とする犯罪経済の全体像",
-    "summary": "産業・エネルギー・製造（IE&M）分野のアンダーグラウンドは、将来のリスクではなく、今まさに稼働している経済である。アクセスブローカーは、窃取された認証情報や銀行データの取引に使われるのと同じフォーラム上で、同じエスクローと評価の仕組みを使い、工場、公益事業、エネルギー企業への足がかりを販売している。BreachForumsでは、タイの製造業者の生産システムが25米ドルで、ドイツの再生可能エネルギー企業の内部データベースが12 BTC（約74万8,000米ドル）で出品されている。産業分野を標的とするアクセス・アズ・ア・サービス（AaaS）市場が活発化しており、アクセスブローカー市場の中心に位置するのは製造業である。ロシア語圏および英語圏のフォーラムの販売者は、VPN（仮想プライベートネットワーク）やRDP（リモートデスクトッププロトコル）経由のアクセスを出品している。",
-    "source_url": "https://www.trendaisecurity.com/ja/resources-insights/deep-research/mapping-the-criminal-economy-targeting-critical-infrastructure",
-    "related_link": [],
-    "tags": [
-      "ICS",
-      "Attack trends",
-      "Statistics"
-    ]
   }
 ]
